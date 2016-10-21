@@ -1,0 +1,68 @@
+{% extends "layout.nunjucks" %}
+{% block content %}
+  <section class="page-home">
+    <div class="parthenon">
+      <article class="col primary">
+        <h1>Collaborative law</h1>
+        <p>
+          Under the collaborative process, each person appoints their own collaboratively trained lawyer and you and your respective lawyers all meet together to work things out face to face. You and your lawyers sign an agreement that commits you to trying to resolve the issues without going to court. <a href="" class="more">More</a>
+        </p>
+        <p>
+          <a href="">Find a collaborative lawyer</a>
+        </p>
+        &nbsp;
+        <h2>Benefits of collaborative law:</h2>
+        <ul>
+          <li>the parents communicate directly with the assistance of their lawyer</li>
+          <li>the parents control the process and make the final decisions</li>
+          <li>it is quicker and cheaper than court action</li>
+          <li>the details are kept private</li>
+          <li>it considers the needs of children above the feelings of the parties</li>
+          <li>it is less upsetting for children involved and helps them continue important family relationships</li>
+        </ul>
+        <hr>
+        <div class="list-table">
+          <div class="item">
+            <h2>Cost:</h2>
+            <div class="right">
+              <ul class="coins">
+                <li class="on">&pound;</li>
+                <li class="on">&pound;</li>
+                <li class="on">&pound;</li>
+                <li class="off">&pound;</li>
+                <li class="off">&pound;</li>
+              </ul>
+              <p>
+                Approx &pound;XXX&mdash;&pound;XXX (per session)
+                <span class="small-copy">If you're on a low income you may be able to <a href="">get legal aid</a></span>
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <h2>Duration:</h2>
+            <div class="right">
+              <p>
+                2&mdash;5 sessions (90 mins per session)
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+      <aside class="col sidebar">
+        <h2>Is this for you</h2>
+        <ul>
+          <li>
+            You will have your own laywer througout the process advising you and presenting your case on your behalf
+          </li>
+          <li>
+            The decisions you reach aren't legally binding on their own. However you can instruct your lawyer to draft a '<a href="">consent order</a>' if you want to make an agreement legally binding
+          </li>
+          <li>
+            Qucker and cheaper than <a href="">going to court</a>
+          </li>
+          <li>Parents who have good to moderate communication skills and are ready to engage in the process</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+{% endblock %}

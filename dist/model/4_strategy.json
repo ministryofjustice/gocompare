@@ -1,0 +1,185 @@
+{
+  "meta" : {
+    "pageTitle" : "Application overview",
+    "description" : "to be added",
+    "canonical" : "index.html"
+  },
+  "contentIntro" : {
+    "componentClass" : "c-headed-text",
+    "pretitle" : "Step 4",
+    "title" : "Strategy",
+    "subtitle" : "",
+    "bodyCopy" : "",
+    "ctaType" : "",
+    "ctaText" : "",
+    "ctaURL" : ""
+  },
+  "strategy" : {
+    "componentClass" : "c-application-form",
+    "title": "",
+    "formBuilder" : {
+      "id" : "applicationForm",
+      "action" : "4_strategyb.html",
+      "method" : "get",
+      "classes" : "",
+      "fieldset" : [
+        {
+          "legend" : "What is the strategy for your project?",
+          "visibleLegend" : false,
+          "fields" : [
+            {
+              "type" : "textarea",
+              "fieldid" : "s4-call-critera",
+              "name" : "s4-call-critera",
+              "label" : "How does the project meet the call criteria?",
+              "enabled" : true,
+              "required" : true,
+              "validation" : "default",
+              "initialVal" : "",
+              "placeholderText" : "",
+              "options" : [],
+              "error" : "",
+              "help" : ""
+            },
+            {
+              "type" : "textarea",
+              "fieldid" : "s4-programme-objectives",
+              "name" : "s4-programme-objectives",
+              "label" : "How does the project deliver the programme's objectives?",
+              "enabled" : true,
+              "required" : true,
+              "validation" : "default",
+              "initialVal" : "",
+              "placeholderText" : "",
+              "options" : [],
+              "error" : "",
+              "help" : ""
+            },
+            {
+              "type" : "radio",
+              "fieldid" : "s4-esif-growth-strategy",
+              "name" : "s4-esif-growth-strategy",
+              "label" : "Does the project align with the growth priorities of the local ESIF strategy?",
+              "enabled" : true,
+              "required" : true,
+              "validation" : "default",
+              "initialVal" : "",
+              "placeholderText" : "",
+              "options" : [
+                {
+                  "name" : "Yes",
+                  "value" : "yes"
+                },
+                {
+                  "name" : "No",
+                  "value" : "no"
+                }
+              ],
+              "error" : "",
+              "help" : ""
+            },
+            {
+              "type" : "radio",
+              "fieldid" : "s4-environmental-benefits",
+              "name" : "s4-environmental-benefits",
+              "label" : "Will the project have environmental benefits?",
+              "enabled" : true,
+              "required" : true,
+              "validation" : "default",
+              "initialVal" : "",
+              "placeholderText" : "",
+              "options" : [
+                {
+                  "name" : "Yes",
+                  "value" : "yes"
+                },
+                {
+                  "name" : "No",
+                  "value" : "no"
+                }
+              ],
+              "error" : "",
+              "help" : ""
+            },
+            {
+              "type" : "texarea",
+              "fieldid" : "s4-equality",
+              "name" : "s4-equality",
+              "label" : "How do you plan to ensure equality across the project?",
+              "enabled" : true,
+              "required" : true,
+              "validation" : "default",
+              "initialVal" : "",
+              "placeholderText" : "",
+              "options" : [],
+              "error" : "",
+              "help" : "Include issues of sex, gender, race and religion if appropriate."
+            }
+          ],
+          "buttons" : [
+            {
+              "type" : "submit",
+              "enabled" : true,
+              "name" : "button",
+              "id" : "save-button",
+              "classes" : "",
+              "text" : "Save and quit"
+            },
+            {
+              "type" : "submit",
+              "enabled" : true,
+              "name" : "button",
+              "id" : "continue-button",
+              "classes" : "",
+              "text" : "Continue"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "applicationInfo" : {
+    "componentClass" : "c-application-info",
+    "items" : [
+      {
+        "title" : "Call reference",
+        "contents" : "OC04R15P0002"
+      },
+      {
+        "title" : "Application Type",
+        "contents" : "Full"
+      },
+      {
+        "title" : "Created",
+        "contents" : "07 November 2015"
+      },
+      {
+        "title" : "Progress",
+        "contents" : "5 of 8 sections completed"
+      },
+      {
+        "title" : "Status",
+        "contents" : "Incomplete"
+      }
+    ]
+
+  },
+  "miniDash" : {
+    "componentClass" : "c-mini-dashboard",
+    "title" : "Your dashboard",
+    "items" : [
+      {
+        "name" : "My tasks",
+        "link" : "dashboard.html"
+      },
+      {
+        "name" : "Existing applications",
+        "link" : "dashboard.html"
+      },
+      {
+        "name" : "Projects",
+        "link" : "dashboard.html"
+      }
+    ]
+  }
+}

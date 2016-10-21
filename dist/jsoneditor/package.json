@@ -1,0 +1,73 @@
+{
+  "name": "jsoneditor",
+  "version": "5.5.9",
+  "main": "./index",
+  "description": "A web-based tool to view, edit, format, and validate JSON",
+  "tags": [
+    "json",
+    "editor",
+    "viewer",
+    "formatter"
+  ],
+  "author": {
+    "name": "Jos de Jong",
+    "email": "wjosdejong@gmail.com"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/josdejong/jsoneditor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josdejong/jsoneditor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/josdejong/jsoneditor/issues"
+  },
+  "scripts": {
+    "build": "gulp",
+    "watch": "gulp watch",
+    "test": "mocha test"
+  },
+  "dependencies": {
+    "ajv": "3.8.8",
+    "brace": "0.8.0",
+    "javascript-natural-sort": "0.7.1"
+  },
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-clean-css": "2.0.5",
+    "gulp-concat-css": "2.2.0",
+    "gulp-shell": "0.5.2",
+    "gulp-util": "3.0.7",
+    "json-loader": "0.5.4",
+    "mkdirp": "0.5.1",
+    "mocha": "2.4.5",
+    "uglify-js": "2.6.2",
+    "webpack": "1.12.14"
+  },
+  "gitHead": "d73665acf33f5245577f8b40f12396184f074e02",
+  "_id": "jsoneditor@5.5.9",
+  "_shasum": "1348ff484fe3eb82c4fdb18af82925c576eac591",
+  "_from": "jsoneditor@>=5.1.5 <6.0.0",
+  "_npmVersion": "3.10.8",
+  "_nodeVersion": "6.8.1",
+  "_npmUser": {
+    "name": "josdejong",
+    "email": "wjosdejong@gmail.com"
+  },
+  "dist": {
+    "shasum": "1348ff484fe3eb82c4fdb18af82925c576eac591",
+    "tarball": "https://registry.npmjs.org/jsoneditor/-/jsoneditor-5.5.9.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "josdejong",
+      "email": "wjosdejong@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/jsoneditor-5.5.9.tgz_1476731865030_0.05504422332160175"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/jsoneditor/-/jsoneditor-5.5.9.tgz"
+}

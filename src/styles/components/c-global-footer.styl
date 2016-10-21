@@ -1,0 +1,50 @@
+.c-global-footer {
+  text-align: center;
+  +above(m) {
+    text-align: left;
+  }
+  background-color: $panel-colour;
+  border-top: 1px solid $border-colour;
+  color: $secondary-text-colour;
+  margin-top: $vspacing * 1.5;
+  padding-top: $vspacing*2
+  cf();
+  a {
+    display: block;
+    color: $secondary-text-colour;
+    font-size: $baseFont * 1.6;
+  }
+  nav {
+    padding-top: $vspacing*4;
+    +above(m) {
+      col(4/5);
+      padding-top: $vspacing*14;
+      float: left;
+    }
+
+
+
+    li {
+      display: inline-block;
+    }
+
+    a {
+      margin-right: $hspacing;
+    }
+  }
+  .copyright {
+    img {
+      max-width: 40%;
+    }
+    +above(m) {
+      col(1/5);
+      text-align: center;
+      padding: $spacing;
+      float: right;
+      img {
+        max-width: 100%;
+      }
+    }
+
+  }
+}
