@@ -28,7 +28,6 @@
     "casperjs": "^1.1.0-beta5",
     "chalk": "^1.1.1",
     "del": "latest",
-    "gulp": "^3.9.0",
     "gulp-add-src": "^0.2.0",
     "gulp-cache": "latest",
     "gulp-concat": "^2.4.3",
@@ -69,6 +68,7 @@
     "yargs": "^4.2.0"
   },
   "dependencies": {
+    "gulp": "^3.9.0",
     "express": "^4.13.4",
     "jquery": "^2.2.0",
     "lodash": "^4.5.0",
