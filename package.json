@@ -1,11 +1,11 @@
 {
-  "name": "E-Claims",
+  "name": "Go-Compare",
   "version": "0.0.1",
   "engines": {
     "node": "0.12.7",
     "npm": "2.11.3"
   },
-  "description": "The e-claims website",
+  "description": "The Go-Compare project",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -14,16 +14,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BBQDigital/e-claims.git"
+    "url": "git+https://github.com/ministryofjustice/gocompare.git"
   },
   "keywords": [],
   "author": "Alex Ward",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/BBQDigital/e-claims/issues"
+    "url": "https://github.com/ministryofjustice/gocompare/issues"
   },
   "homepage": "",
-  "devDependencies": {
+  "dependencies": {
     "browser-sync": "^2.11.0",
     "casperjs": "^1.1.0-beta5",
     "chalk": "^1.1.1",
@@ -65,9 +65,7 @@
     "spooky": "^0.2.5",
     "webpack-dev-server": "^1.14.1",
     "webpack-stream": "^3.1.0",
-    "yargs": "^4.2.0"
-  },
-  "dependencies": {
+    "yargs": "^4.2.0",
     "gulp": "^3.9.0",
     "express": "^4.13.4",
     "jquery": "^2.2.0",
