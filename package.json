@@ -38,7 +38,7 @@
     "gulp-ext-replace": "^0.2.0",
     "gulp-header": "^1.7.1",
     "gulp-if": "^2.0.0",
-    "gulp-imagemin": "^5.0.0",
+    "gulp-imagemin": "^3.0.3",
     "gulp-jsonlint": "^1.1.2",
     "gulp-merge-media-queries": "^0.2.1",
     "gulp-notify": "^2.2.0",
