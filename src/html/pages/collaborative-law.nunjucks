@@ -1,0 +1,55 @@
+{% extends "layout.nunjucks" %}
+{% block content %}
+  <section class="page-home">
+    <div class="parthenon">
+      <article class="col primary">
+        <h1>Collaborative law</h1>
+        <p>Collaborative lawyers try to resolve your issues without having to go to court. You and your partner will need to appoint a lawyer each before you all meet to negotiate face to face.</p>
+        <p>Negotiations are direct and efficient and give you the opportunity to resolve issues in an amicable way.</p>
+        <p><a href="">Find out more about collaborative law</a></p>
+        &nbsp;
+        <h2>Benefits of collaborative law:</h2>
+        <ul>
+          <li>everyone is committed to resolving issues out court</li>
+          <li>your lawyer will be with you throughout the process</li>
+          <li>quicker and less stressful than going to court</li>
+          <li>you retain control over the decisions</li>
+          <li>the lawyers are trained in non-confrontational negotiation</li>
+        </ul>
+        <hr>
+        <div class="list-table">
+          <div class="item">
+            <h2>Cost:</h2>
+            <div class="right">
+              <ul class="coins">
+                <li class="on">&pound;</li>
+                <li class="on">&pound;</li>
+                <li class="on">&pound;</li>
+                <li class="off">&pound;</li>
+                <li class="off">&pound;</li>
+              </ul>
+              <p>
+                Costs are hard to estimate, but could be in the region of &pound;8,000 to &pound;15,000.
+                <span class="small-copy">If you're on a low income you may be able to <a href="">get legal aid</a></span>
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <h2>Duration:</h2>
+            <div class="right">
+              <p>
+                There’s no timetable - how long the process takes is up to you and your partner.
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+      <aside class="col sidebar">
+        <h2>Is this for you</h2>
+        <p>Collaborative law isn’t about getting the best deal for you or seeking revenge on your partner. You must both want an amicable resolution and need to go into it with an open mind.</p>
+        <p>It can also be an expensive process. Ask a collaborative lawyer about their fees.</p>
+        <p><a href="">Find a collaborative lawyer near you</a></p>
+      </aside>
+    </div>
+  </section>
+{% endblock %}

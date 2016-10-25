@@ -1,7 +1,7 @@
 {
   "config" : {
     "host" : "localhost:3000",
-    "siteName" : "Go Compare",
+    "siteName" : "E-Claims",
     "phaseTag" : "<span class=\"phase__message phase__alpha\">This is a new service – <a href=\"#\">help us improve it.</a></span>"
   },
   "globalHeader" : {

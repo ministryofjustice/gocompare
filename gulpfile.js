@@ -220,9 +220,9 @@ gulp.task('processHTML', function() {
     .pipe(plumber(
       { errorHandler: onError }
     ))
-    .pipe(data(function(file) {
-      return JSON.parse(fs.readFileSync('./src/model/' + path.basename(file.path, '.nunjucks') + '.json'));
-    }))
+    // .pipe(data(function(file) {
+    //   return JSON.parse(fs.readFileSync('./src/model/' + path.basename(file.path, '.nunjucks') + '.json'));
+    // }))
     .pipe(data(function() {
       return JSON.parse(fs.readFileSync('./src/model/globals.json'));
     }))
