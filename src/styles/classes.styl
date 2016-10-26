@@ -9,10 +9,6 @@
   font-style: italic;
 }
 
-
-.small-copy {
-  font-size: $smallCopy;
-}
 .hide {
   // This hides the content for everyone, even most screen readers
   // won't see this
@@ -27,38 +23,12 @@
   top: -9999px;
 }
 
-.lined-list {
-  li {
-    padding: $vspacing 0;
-    border-top: 1px solid $border-colour;
-  }
-}
-
-.more {
-  &:after {
-    content: ">";
-    margin-left: $hspacing;
-    width: 1rem;
-    height: 1rem;
-    text-decoration: none;
-  }
-}
-
 //basic button
 .o-btn {
-  cursor: pointer;
-  padding: $spacing;
-  color: $highlight-colour;
-  background-color: $button-colour;
-  border-radius: $brad;
-  font-weight: bold;
-  &:hover {
-    background-color: darken($button-colour, 10%);
-  }
+  // add button styles
+}
 
-  a {
-    // In case class is on parent
-    color: $highlight-colour;
-  }
-
+.loader {
+  text-indent: -9999px;
+  background: url(/static/images/ajax-loader.gif) 50% 50% no-repeat;
 }

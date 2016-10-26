@@ -1,27 +1,47 @@
 ff-title()
-  font-family: 'nta', sans-serif;
+  font-family: 'Arvo', sans-serif;
   font-weight: bold;
 ff-body()
-  font-family: 'nta', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: normal;
   font-size: $baseFont*1.6
+  line-height: $lineHeight*1.5;
+  margin-bottom: $hspacing;
   +above(m) {
     font-size: $bodyCopy;
   }
-button()
+button(bgc)
   display: inline-block;
-  color: $white;
-  background: $button-colour;
-  padding: $vspacing $hspacing*2
+  color: #fff;
+  background-color: bgc;
+  padding: $vspacing $hspacing*3
   border: 0;
-  font-size: $smallCopy;
+  font-size: $outerCore;
   cursor: pointer;
-  border-bottom: 3px solid darken($button-colour, 40%);
+  border-bottom: 3px solid darken(bgc, 20%);
   &:hover {
-    background: $green;
+    border-color: darken(bgc, 40%);
+    background-color: lighten(bgc, 10%);
+    i {
+      transform: rotate(20deg);
+    }
   }
   &.disabled {
     cursor: auto;
-    background: desaturate($button-colour, 60%);
+    background: desaturate(bgc, 60%);
     opacity: .6;
   }
+  i {
+    transition: transform .5s ease-in-out;
+    margin-right: $hspacing;
+  }
+coming-soon()
+  &:after
+    content: "coming soon!";
+    position: absolute;
+    top: 25px;
+    right:-35px;
+    color: $light;
+    background-color: #a30e1b;
+    padding: ($spacing/2) $spacing*3;
+    transform: rotate(45deg);
