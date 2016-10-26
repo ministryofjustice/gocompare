@@ -56,6 +56,7 @@ let onError = function (err) {
 gulp.task('watch', () => {
   gulp.watch(io.in+path.scripts+'/**/*.js', ['scripts']);
   gulp.watch(io.in+path.styles+'/**/*.styl', ['styles']);
+  gulp.watch(io.in+path.views+'/**/*.ejs', ['views']);
 })
 
 // run tests (can also use npm test)

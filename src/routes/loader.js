@@ -1,12 +1,11 @@
 var express = require('express');
-
 var router = express.Router();
 
 router.get('/', (req, res) => {
     res.render(
       'index',
       {
-        RouteName: 'Index Route'
+        title: 'Welcome to Go-Compare'
       }
     )
 })

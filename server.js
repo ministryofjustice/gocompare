@@ -1,10 +1,9 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var morgan = require('morgan');
-var routes = require('./src/routes/index');
+var routes = require('./src/routes/loader');
 
 var app = express();
-
 var port = 3000;
 
 app.use(bodyParser.urlencoded({ extended: true }));

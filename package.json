@@ -15,8 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/ministryofjustice/gocompare.git"
   },
-  "keywords": [
-  ],
+  "keywords": [],
   "author": "Alex Ward",
   "license": "MIT",
   "bugs": {
@@ -43,7 +42,9 @@
     "yargs": "^6.0.0"
   },
   "devDependencies": {
+    "browser-sync": "^2.17.5",
     "chalk": "^1.1.1",
+    "connect-browser-sync": "^2.0.1",
     "del": "latest",
     "eslint": "latest",
     "gulp-babel": "^6.1.2",
