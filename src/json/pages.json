@@ -1,0 +1,20 @@
+[
+  {
+    "id" : "1",
+    "template" : "article",
+    "slug" : "article-page",
+    "title" : "Article page test",
+    "author" : "Alex Ward",
+    "date" : "26/10/16",
+    "post" : ""
+  },
+  {
+    "id" : "2",
+    "template" : "article",
+    "slug" : "article-page-2",
+    "title" : "Article page test 2",
+    "author" : "Alex Ward",
+    "date" : "26/10/16",
+    "post" : ""
+  }
+]
