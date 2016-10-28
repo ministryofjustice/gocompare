@@ -80,14 +80,21 @@ gulp.task('styles', () => {
   }))
   .pipe(concat('core.min.css'))
   .pipe(cmq())
-  .pipe(gulp.dest(io.out+path.styles))
+  .pipe(gulp.dest(io.out+'/static/'+path.styles))
 });
 
 // Process javascript
 gulp.task('scripts', ['test'], () => {
   gulp.src(io.in+path.scripts+'/**/*.js')
   .pipe(babel())
-  .pipe(gulp.dest(io.out+path.scripts))
+  .pipe(gulp.dest(io.out+'/static/'+path.scripts))
+});
+
+// Copy static assets to dist
+gulp.task('static', () => {
+  // Fonts
+  gulp.src(io.in+'/fonts/**/*')
+  .pipe(gulp.dest(io.out+'/static/fonts'))
 });
 
 // Process theme
@@ -101,7 +108,7 @@ gulp.task('views', () => {
 
 // run all the required build tasks
 gulp.task('build', ['clean'], () => {
-  gulp.start('styles', 'scripts', 'views');
+  gulp.start('styles', 'scripts', 'views', 'static');
 });
 
 // Delete the destination directory

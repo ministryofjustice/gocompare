@@ -1,20 +1,24 @@
-ff-title()
-  font-family: 'Arvo', sans-serif;
+ff-title() {
+  font-family: 'VAG-Rounded-bold', sans-serif;
   font-weight: bold;
-ff-body()
-  font-family: 'Lato', sans-serif;
+}
+
+ff-body() {
+  font-family: 'VAG-Rounded-light', sans-serif;
   font-weight: normal;
-  font-size: $baseFont*1.6
+  font-size: $baseFont*1.6;
   line-height: $lineHeight*1.5;
   margin-bottom: $hspacing;
   +above(m) {
     font-size: $bodyCopy;
   }
-button(bgc)
+}
+
+button(bgc) {
   display: inline-block;
   color: #fff;
   background-color: bgc;
-  padding: $vspacing $hspacing*3
+  padding: $vspacing $hspacing*3;
   border: 0;
   font-size: $outerCore;
   cursor: pointer;
@@ -35,13 +39,4 @@ button(bgc)
     transition: transform .5s ease-in-out;
     margin-right: $hspacing;
   }
-coming-soon()
-  &:after
-    content: "coming soon!";
-    position: absolute;
-    top: 25px;
-    right:-35px;
-    color: $light;
-    background-color: #a30e1b;
-    padding: ($spacing/2) $spacing*3;
-    transform: rotate(45deg);
+}

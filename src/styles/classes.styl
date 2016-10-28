@@ -32,3 +32,16 @@
   text-indent: -9999px;
   background: url(/static/images/ajax-loader.gif) 50% 50% no-repeat;
 }
+
+//Columns
+.u-primary {
+  +above(l) {
+    col(2/3);
+  }
+}
+
+.u-secondary {
+  +above(l) {
+    col(1/3);  
+  }
+}
