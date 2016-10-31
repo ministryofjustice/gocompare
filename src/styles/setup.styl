@@ -14,6 +14,15 @@ h1, h2, h3 {
   ff-title();
 }
 
+a {
+  color: $links;
+  text-decoration: underline;
+  &:hover {
+    text-decoration: none;
+    color: darken($links, 10%);
+  }
+}
+
 .skip--navigation {
   a {
     position: absolute;
@@ -49,5 +58,6 @@ h1, h2, h3 {
 }
 
 .wrapper {
+  center(1020px);
   min-height:100vh;
 }
