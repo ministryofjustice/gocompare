@@ -1,20 +1,57 @@
 [
   {
     "id" : "1",
-    "template" : "article",
-    "slug" : "article-page",
-    "title" : "Article page test",
-    "author" : "Alex Ward",
-    "date" : "26/10/16",
-    "post" : ""
-  },
-  {
-    "id" : "2",
-    "template" : "article",
-    "slug" : "article-page-2",
-    "title" : "Article page test 2",
-    "author" : "Alex Ward",
-    "date" : "26/10/16",
-    "post" : ""
+    "template" : "detail",
+    "slug" : "mediation",
+    "title" : "Mediation",
+    "tags" : [
+      {
+        "name" : "Medium-high partner communication",
+        "slug" : "med-high-partner-comms"
+      },
+      {
+        "name" : "Low-medium conflict",
+        "slug" : "low-med-conflict"
+      }
+    ],
+    "introduction" : "<p>You can use the help of a mediator if you can’t agree on some issues. Mediators won’t take sides or give you legal advice but will show all the options available to you.</p><p>Using a mediator is quicker and less stressful than going to court.</p>",
+    "cost" : {
+      "scale" : 2,
+      "info" : "<p>The average cost of a mediation session is <strong>£80</strong>.<br />Most people need between 1 and 2 sessions.</p>You must first meet with a mediator to check if it’s right for you. This is called a <a href=\"\">Mediation Information and Assessment Meeting (MIAM)</a>.</p><p>The average cost of a MIAM is £30.<p><p>If you don’t work, or are on a low income, you may be able to get legal aid</p>"
+    },
+    "duration" : {
+      "info" : "<p>Each session lasts approximately 90 minutes.</p>"
+    },
+    "helpline" : {
+      "info" : "<p><a href=\"\">01920 443 834</a> (Family Mediation Council)<br / >Calls charged at a local rate</p>"
+    },
+    "pros" : [
+      {
+        "text" : "<strong>4</strong> times quicker and <strong>5</strong> times cheaper than going to court;"
+      },
+      {
+        "text" : "less stressful, with less conflict between you and your partner;"
+      },
+      {
+        "text" : "gives you more control – in court a judge will make the decision; "
+      },
+      {
+        "text" : "easier on your children and helps them continue important family relationships;"
+      },
+      {
+        "text" : "improves communication with your ex-partner."
+      },
+      {
+        "text" : "Mediation works for most people – two thirds of couples who attend reach an agreement."
+      }
+    ],
+    "cons" : [
+      {
+        "text" : "<p>Agreements made in mediation aren’t legally binding although you can hire a solicitor to check your new arrangements.</p>"
+      },
+      {
+        "text" : "<p>Mediation shouldn’t be considered when someone’s <strong>safety is at risk</strong>, for example where domestic violence or child abuse is involved. If you have evidence of the violence or abuse you can take your case <a href=\"/court\">straight to court without having to consider mediation.</p><p>You may qualify for <a href=\"\">legal aid</a> to do this</p>"
+      }
+    ]
   }
 ]

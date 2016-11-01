@@ -16,7 +16,7 @@ router.get('/:slug', (req, res) => {
     pages.forEach(function(page) {
       if(page.slug === slug) {
         res.render(
-          'article', page
+          'detail', page
         )
       }
     });

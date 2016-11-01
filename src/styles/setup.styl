@@ -61,3 +61,28 @@ a {
   center(1020px);
   min-height:100vh;
 }
+
+.u-primary {
+    h1 {
+      font-size: $mantle;
+      margin-bottom: $vspacing;
+      a {
+        color: $primary;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    p {
+      ff-body();
+    }
+
+    ul {
+      list-style: disc;
+      margin-left: $hspacing*3;
+      li {
+        margin-bottom: $vspacing;
+      }
+    }
+}

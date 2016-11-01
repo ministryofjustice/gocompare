@@ -1,0 +1,62 @@
+<% include components/header.ejs %>
+<article class="c-details">
+  <section class="u-primary">
+    <div class="c-headed-text">
+      <h1><%= title %></h1>
+      <ul class="tags">
+        <% tags.forEach(function(tag, i){ %>
+          <li><%= tag.name %></li>
+        <% }) %>
+      </ul>
+      <div class="intro divider">
+        <%- introduction %>
+      </div>
+    </div>
+    <dl class="c-details__infosheet">
+      <dt>Cost:</dt>
+      <dd>
+        <ul class="c-details__infosheet__scale c-details__infosheet__scale--<%= cost.scale %>">
+          <li>&pound;</li>
+          <li>&pound;</li>
+          <li>&pound;</li>
+          <li>&pound;</li>
+          <li>&pound;</li>
+        </ul>
+        <div class="info">
+          <%- cost.info %>
+        </div>
+      </dd>
+      <dt>Duration:</dt>
+      <dd>
+        <div class="info">
+          <%- duration.info %>
+        </div>
+      </dd>
+      <dt>Helpline:</dt>
+      <dd>
+        <div class="info">
+          <%- helpline.info %>
+        </div>
+      </dd>
+    </dl>
+  </section>
+  <aside class="u-secondary">
+    <div class="pros">
+      <h2>Pros:</h2>
+      <ul>
+        <% pros.forEach(function(pro, i) { %>
+          <li class="u-ico u-ico__check"><%- pro.text %></li>
+        <% }) %>
+      </ul>
+    </div>
+    <div class="cons">
+      <h2>Cons:</h2>
+      <ul>
+        <% cons.forEach(function(con, i) { %>
+          <li class="u-ico u-ico__cross"><%- con.text %></li>
+        <% }) %>
+      </ul>
+    </div>
+  </aside>
+</article>
+<% include components/footer.ejs %>
