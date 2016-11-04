@@ -162,6 +162,7 @@
     </dl>
   </section>
   <aside class="u-secondary c-details__more-info">
+    <% if (pros) { %>
     <div class="c-details__more-info__pros">
       <h2>Pros:</h2>
       <ul>
@@ -170,6 +171,7 @@
         <% }) %>
       </ul>
     </div>
+    <% } if (cons) { %>
     <div class="c-details__more-info__cons">
       <h2>Cons:</h2>
       <ul>
@@ -178,6 +180,11 @@
         <% }) %>
       </ul>
     </div>
+    <% } if (other) { %>
+      <div class="c-details__more-info__other">
+        <%- other %>
+      </div>
+    <% } %>
   </aside>
 </article>
 <% include components/footer.ejs %>
