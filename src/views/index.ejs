@@ -15,78 +15,188 @@
 </div>
 <div class="full">
    <ul class="c c-article-list">
-     <li>
-       <section class="c-article-list__summary divider">
-         <div class="u-primary">
-           <h1><a href="/court">Court</a></h1>
-           <p>You can use the help of a mediator if you can’t agree on some issues. Mediators won’t take sides or give you legal advice but will show all the options available to you.</p>
-           <p>Using a mediator is quicker and less stressful than going to court.</p>
-           <a href="" class="more">Find out more about court</a>
-         </div>
-         <aside class="u-secondary">
-           <h2>Pros:</h2>
-           <ul>
-             <li>Valid point</li>
-             <li>Interesting and insightful argument</li>
-             <li>Useful idea</li>
-           </ul>
-         </aside>
-       </section>
-     </li>
-     <li>
-       <section class="c-article-list__summary divider">
-         <div class="u-primary">
-           <h1><a href="/mediation">Mediation</a></h1>
-           <p>You can use the help of a mediator if you can’t agree on some issues. Mediators won’t take sides or give you legal advice but will show all the options available to you.</p>
-           <p>Using a mediator is quicker and less stressful than going to court.</p>
-           <a href="" class="more">Find out more about mediation</a>
-         </div>
-         <aside class="u-secondary">
-           <h2>Pros:</h2>
-           <ul>
-             <li>Valid point</li>
-             <li>Interesting and insightful argument</li>
-             <li>Useful idea</li>
-           </ul>
-         </aside>
-       </section>
-     </li>
-     <li>
-       <section class="c-article-list__summary divider">
-         <div class="u-primary">
-           <h1><a href="/collaborative-law">Collaborative Law</a></h1>
-           <p>You can use the help of a mediator if you can’t agree on some issues. Mediators won’t take sides or give you legal advice but will show all the options available to you.</p>
-           <p>Using a mediator is quicker and less stressful than going to court.</p>
-           <a href="" class="more">Find out more about collaborative law</a>
-         </div>
-         <aside class="u-secondary">
-           <h2>Pros:</h2>
-           <ul>
-             <li>Valid point</li>
-             <li>Interesting and insightful argument</li>
-             <li>Useful idea</li>
-           </ul>
-         </aside>
-       </section>
-     </li>
-     <li>
-       <section class="c-article-list__summary divider">
-         <div class="u-primary">
-           <h1><a href="/counselling">Counselling</a></h1>
-           <p>You can use the help of a mediator if you can’t agree on some issues. Mediators won’t take sides or give you legal advice but will show all the options available to you.</p>
-           <p>Using a mediator is quicker and less stressful than going to court.</p>
-           <a href="" class="more">Find out more about counselling</a>
-         </div>
-         <aside class="u-secondary">
-           <h2>Pros:</h2>
-           <ul>
-             <li>Valid point</li>
-             <li>Interesting and insightful argument</li>
-             <li>Useful idea</li>
-           </ul>
-         </aside>
-       </section>
-     </li>
+  <% pages.forEach(function(page, i) { %>
+    <li>
+      <section class="c-article-list__summary divider">
+        <div class="u-primary">
+          <h1><a href="<%= page.slug %>"><%= page.title %></a></h1>
+          <%- page.introduction %>
+          <dl class="c-details__infosheet">
+            <dt>Cost:</dt>
+            <dd>
+              <ul class="c-details__infosheet__scale">
+                <%# TODO: This needs refactoring! %>
+                <%
+                    switch(page.cost.scale) {
+                      case 1:
+                %>
+                      <li class="fa-stack">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
+                      </li>
+                      <li class="fa-stack">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fa fa-gbp fa-stack-1x"></i>
+                      </li>
+                      <li class="fa-stack">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fa fa-gbp fa-stack-1x"></i>
+                      </li>
+                      <li class="fa-stack">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fa fa-gbp fa-stack-1x"></i>
+                      </li>
+                      <li class="fa-stack">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fa fa-gbp fa-stack-1x"></i>
+                      </li>
+                      <%
+                      break;
+                      case 2:
+                      %>
+                      <li class="fa-stack">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
+                      </li>
+                      <li class="fa-stack">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
+                      </li>
+                      <li class="fa-stack">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fa fa-gbp fa-stack-1x"></i>
+                      </li>
+                      <li class="fa-stack">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fa fa-gbp fa-stack-1x"></i>
+                      </li>
+                      <li class="fa-stack">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fa fa-gbp fa-stack-1x"></i>
+                      </li>
+                      <%
+                      break;
+                      case 3:
+                      %>
+                      <li class="fa-stack">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
+                      </li>
+                      <li class="fa-stack">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
+                      </li>
+                      <li class="fa-stack">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
+                      </li>
+                      <li class="fa-stack">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fa fa-gbp fa-stack-1x"></i>
+                      </li>
+                      <li class="fa-stack">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fa fa-gbp fa-stack-1x"></i>
+                      </li>
+                      <%
+                      break;
+                      case 4:
+                      %>
+                      <li class="fa-stack">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
+                      </li>
+                      <li class="fa-stack">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
+                      </li>
+                      <li class="fa-stack">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
+                      </li>
+                      <li class="fa-stack">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
+                      </li>
+                      <li class="fa-stack">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fa fa-gbp fa-stack-1x"></i>
+                      </li>
+                      <%
+                      break;
+                      case 2:
+                      %>
+                      <li class="fa-stack">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
+                      </li>
+                      <li class="fa-stack">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
+                      </li>
+                      <li class="fa-stack">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
+                      </li>
+                      <li class="fa-stack">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
+                      </li>
+                      <li class="fa-stack">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
+                      </li>
+                      <%
+                      break;
+                   } %>
+              </ul>
+              <div class="info">
+                <%- page.cost.info %>
+              </div>
+            </dd>
+            <dt>Duration:</dt>
+            <dd>
+              <div class="info">
+                <%- page.duration.info %>
+              </div>
+            </dd>
+            <dt>Helpline:</dt>
+            <dd>
+              <div class="info">
+                <%- page.helpline.info %>
+              </div>
+            </dd>
+          </dl>
+        </div>
+        <aside class="u-secondary c-more-info">
+        <% if (page.pros) { %>
+        <div class="c-more-info__pros">
+          <h2>Pros:</h2>
+          <ul>
+            <% page.pros.forEach(function(pro, i) { %>
+              <li><i class="fa fa-check"></i><div><%- pro.text %></div></li>
+            <% }) %>
+          </ul>
+        </div>
+        <% } if (page.cons) { %>
+        <div class="c-more-info__cons">
+          <h2>Cons:</h2>
+          <ul>
+            <% page.cons.forEach(function(con, i) { %>
+              <li><i class="fa fa-close"></i><div><%- con.text %></div></li>
+            <% }) %>
+          </ul>
+        </div>
+        <% } if (page.other) { %>
+          <div class="c-more-info__other">
+            <%- page.other %>
+          </div>
+        <% } %>
+        </aside>
+      </section>
+    </li>
+  <%}) %>
+
    </ul>
 </div>
 <% include components/footer.ejs %>

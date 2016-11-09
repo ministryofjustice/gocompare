@@ -3,12 +3,9 @@ var router = express.Router();
 var pages = require('../json/pages.json');
 
 router.get('/', (req, res) => {
-    res.render(
-      'index',
-      {
-        title: 'Welcome'
-      }
-    )
+    res.render('index', {
+      pages: pages
+    })
 });
 
 router.get('/:slug', (req, res) => {

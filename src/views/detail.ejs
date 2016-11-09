@@ -161,9 +161,9 @@
       </dd>
     </dl>
   </section>
-  <aside class="u-secondary c-details__more-info">
+  <aside class="u-secondary c-more-info">
     <% if (pros) { %>
-    <div class="c-details__more-info__pros">
+    <div class="c-more-info__pros">
       <h2>Pros:</h2>
       <ul>
         <% pros.forEach(function(pro, i) { %>
@@ -172,7 +172,7 @@
       </ul>
     </div>
     <% } if (cons) { %>
-    <div class="c-details__more-info__cons">
+    <div class="c-more-info__cons">
       <h2>Cons:</h2>
       <ul>
         <% cons.forEach(function(con, i) { %>
@@ -181,7 +181,7 @@
       </ul>
     </div>
     <% } if (other) { %>
-      <div class="c-details__more-info__other">
+      <div class="c-more-info__other">
         <%- other %>
       </div>
     <% } %>
