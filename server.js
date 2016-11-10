@@ -12,8 +12,6 @@ app.use(bodyParser.json());
 app.set('view engine', 'ejs');
 app.set('views', './dist/views');
 
-console.log(__dirname);
-
 app.use(function(req, res, next) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST');
