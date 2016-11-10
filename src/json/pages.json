@@ -14,10 +14,10 @@
         "slug" : "low-med-conflict"
       }
     ],
-    "introduction" : "<p>You can use the help of a mediator if you can’t agree on some issues. Mediators won’t take sides or give you legal advice but will show all the options available to you.</p><p>Using a mediator is quicker and less stressful than going to court.</p>",
+    "introduction" : "<p>Parents can use the help of a mediator if they can’t agree on some issues. Mediators won’t take sides or give legal advice but will show all options available.</p><p>Mediation works for most people - two thirds of couples who attend reach an agreement.</p><p>Parents must first meet with a mediator to check if it’s right for them. This is called a Mediation Information and Assessment Meeting (MIAM).</p><p><a href=\"http://www.familymediationcouncil.org.uk/find-local-mediator/\">Find out more about mediation</a></p>",
     "cost" : {
       "scale" : 2,
-      "info" : "<p>The average cost of a mediation session is <strong>£80</strong>.<br />Most people need between 1 and 2 sessions.</p>You must first meet with a mediator to check if it’s right for you. This is called a <a href=\"\">Mediation Information and Assessment Meeting (MIAM)</a>.</p><p>The average cost of a MIAM is £30.<p><p>If you don’t work, or are on a low income, you may be able to get legal aid</p>"
+      "info" : "<p>The average cost of a mediation session is <strong>£80</strong>.<br />How many sessions you have depends on the amount of issues you want to discuss.</p><p>If you don’t work, or are on a low income, you may be able to get legal aid</p><p><a href=\"https://checklegalaid.service.gov.uk/\">Check if you can get legal aid</a></p>"
     },
     "duration" : {
       "info" : "<p>Each session lasts approximately 90 minutes.</p>"
@@ -27,30 +27,30 @@
     },
     "pros" : [
       {
-        "text" : "<strong>4</strong> times quicker and <strong>5</strong> times cheaper than going to court;"
+        "text" : "high rate of success"
       },
       {
-        "text" : "less stressful, with less conflict between you and your partner;"
+        "text" : "quicker and cheaper than court"
       },
       {
-        "text" : "gives you more control – in court a judge will make the decision; "
+        "text" : "less parent conflict"
       },
       {
-        "text" : "easier on your children and helps them continue important family relationships;"
+        "text" : "helps children continue family relationships"
       },
       {
-        "text" : "improves communication with your ex-partner."
+        "text" : "improves parent communication "
       },
       {
-        "text" : "Mediation works for most people – two thirds of couples who attend reach an agreement."
+        "text" : "agreements are flexible"
       }
     ],
     "cons" : [
       {
-        "text" : "<p>Agreements made in mediation aren’t legally binding although you can hire a solicitor to check your new arrangements.</p>"
+        "text" : "requires high level of parent co-operation"
       },
       {
-        "text" : "<p>Mediation shouldn’t be considered when someone’s <strong>safety is at risk</strong>, for example where domestic violence or child abuse is involved. If you have evidence of the violence or abuse you can take your case <a href=\"/court\">straight to court without having to consider mediation.</p><p>You may qualify for <a href=\"\">legal aid</a> to do this</p>"
+        "text" : "agreements aren’t legally binding"
       }
     ],
     "other" : ""
