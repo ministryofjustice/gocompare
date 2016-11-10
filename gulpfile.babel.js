@@ -95,6 +95,9 @@ gulp.task('static', () => {
   // Fonts
   gulp.src(io.in+'/fonts/**/*')
   .pipe(gulp.dest(io.out+'/static/fonts'))
+  // Favico
+  gulp.src(io.in+'/favicon.ico')
+  .pipe(gulp.dest(io.out))
 });
 
 // Process theme
