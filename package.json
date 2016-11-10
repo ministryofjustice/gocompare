@@ -50,14 +50,12 @@
     "lodash": "^4.5.0",
     "morgan": "^1.7.0",
     "path": "^0.12.7",
-    "rupture": "^0.6.1",
-    "yargs": "^6.0.0"
-  },
-  "devDependencies": {
     "browser-sync": "^2.17.5",
     "chalk": "^1.1.1",
     "connect-browser-sync": "^2.0.1",
     "jasmine-console-reporter": "^1.2.7",
-    "node-notifier": "^4.6.1"
+    "node-notifier": "^4.6.1",
+    "rupture": "^0.6.1",
+    "yargs": "^6.0.0"
   }
 }

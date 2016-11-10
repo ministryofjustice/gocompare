@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.set('view engine', 'ejs');
-app.set('views', './dist/views');
+app.set('views', __dirname + '/dist/views');
 
 app.use(function(req, res, next) {
   res.setHeader('Access-Control-Allow-Origin', '*');

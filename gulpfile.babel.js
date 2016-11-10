@@ -31,8 +31,8 @@ var reporter = new JasmineConsoleReporter({
 // Note: If you are using your own theme, simply replace the 'default' theme with your own theme dir (This will also need to be done in server.js)
 
 let io = {
-    in: './src',
-    out: './dist'
+    in: __dirname+'/src',
+    out: __dirname+'/dist'
   }
 
 // The paths
