@@ -4,7 +4,7 @@ var morgan = require('morgan');
 var routes = require('./src/routes/loader');
 
 var app = express();
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 8080;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
