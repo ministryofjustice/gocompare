@@ -1,15 +1,16 @@
 <% include components/header.ejs %>
 <div class="full divider">
   <div class="c c-headed-text u-primary">
-    <h1>Your options for making child arrangements</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium voluptatum, aperiam dignissimos nihil quo sed blanditiis molestias ratione, totam debitis commodi! Nihil error, enim accusantium quia doloribus ullam, quisquam mollitia!</p>
+    <h1><%= content.title %></h1>
+    <%- content.introduction %>
   </div>
   <div class="c c-quick-links u-secondary">
     <ul>
-      <li><a href="">Worried about your child's safety?</a></li>
-      <li><a href="">Am I eligible for legal aid?</a></li>
-      <li><a href="">Make a plan for your child arrangements</a></li>
-      <li><a href="">Your rights and responsibilities as a parent</a></li>
+      <% content.quicklinks.forEach(function(ql) { %>
+        <li>
+          <a href="<%= ql.url%>"><%= ql.name %></a>
+        </li>
+      <% }) %>
     </ul>
   </div>
 </div>

@@ -1,9 +1,12 @@
 var express = require('express');
 var router = express.Router();
+var index = require('../json/index.json');
 var pages = require('../json/pages.json');
 
 router.get('/', (req, res) => {
     res.render('index', {
+      type: 'index',
+      content: index,
       pages: pages
     })
 });
@@ -13,7 +16,10 @@ router.get('/:slug', (req, res) => {
     pages.forEach(function(page) {
       if(page.slug === slug) {
         res.render(
-          'detail', page
+          'detail', {
+            type: 'detail',
+            page: page
+          }
         )
       }
     });

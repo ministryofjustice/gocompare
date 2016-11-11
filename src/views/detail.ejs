@@ -2,16 +2,16 @@
 <article class="c-details">
   <section class="u-primary">
     <div class="c-headed-text">
-      <h1><a href=""><%= title %></a></h1>
+      <h1><a href=""><%= page.title %></a></h1>
       <div class="c-details__tags">
         <ul>
-          <% tags.forEach(function(tag, i){ %>
+          <% page.tags.forEach(function(tag, i){ %>
             <li><%= tag.name %></li>
           <% }) %>
         </ul>
       </div>
       <div class="c-details__intro divider">
-        <%- introduction %>
+        <%- page.introduction %>
       </div>
     </div>
     <dl class="c-details__infosheet">
@@ -20,7 +20,7 @@
         <ul class="c-details__infosheet__scale">
           <%# TODO: This needs refactoring! %>
           <%
-              switch(cost.scale) {
+              switch(page.cost.scale) {
                 case 1:
           %>
                 <li class="fa-stack">
@@ -144,45 +144,45 @@
              } %>
         </ul>
         <div class="info">
-          <%- cost.info %>
+          <%- page.cost.info %>
         </div>
       </dd>
       <dt>Duration:</dt>
       <dd>
         <div class="info">
-          <%- duration.info %>
+          <%- page.duration.info %>
         </div>
       </dd>
       <dt>Helpline:</dt>
       <dd>
         <div class="info">
-          <%- helpline.info %>
+          <%- page.helpline.info %>
         </div>
       </dd>
     </dl>
   </section>
   <aside class="u-secondary c-more-info">
-    <% if (pros) { %>
+    <% if (page.pros) { %>
     <div class="c-more-info__pros">
       <h2>Pros:</h2>
       <ul>
-        <% pros.forEach(function(pro, i) { %>
+        <% page.pros.forEach(function(pro, i) { %>
           <li><i class="fa fa-check"></i><div><%- pro.text %></div></li>
         <% }) %>
       </ul>
     </div>
-    <% } if (cons) { %>
+    <% } if (page.cons) { %>
     <div class="c-more-info__cons">
       <h2>Cons:</h2>
       <ul>
-        <% cons.forEach(function(con, i) { %>
+        <% page.cons.forEach(function(con, i) { %>
           <li><i class="fa fa-close"></i><div><%- con.text %></div></li>
         <% }) %>
       </ul>
     </div>
-    <% } if (other) { %>
+    <% } if (page.other) { %>
       <div class="c-more-info__other">
-        <%- other %>
+        <%- page.other %>
       </div>
     <% } %>
   </aside>

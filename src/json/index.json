@@ -1,0 +1,23 @@
+{
+  "template" :  "index",
+  "title" : "Your options for making child arrangements",
+  "introduction" : "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium voluptatum, aperiam dignissimos nihil quo sed blanditiis molestias ratione, totam debitis commodi! Nihil error, enim accusantium quia doloribus ullam, quisquam mollitia!</p>",
+  "quicklinks" : [
+    {
+      "name" : "Worried about your child's safety?",
+      "url" : ""
+    },
+    {
+      "name" : "Am I eligible for legal aid?",
+      "url" : ""
+    },
+    {
+      "name" : "Make a plan for your child arrangements",
+      "url" : ""
+    },
+    {
+      "name" : "Your rights and responsibilities as a parent",
+      "url" : ""
+    }
+  ]
+}
