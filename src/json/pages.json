@@ -1,6 +1,62 @@
 [
+    {
+      "id" : 1,
+      "template" : "detail",
+      "slug" : "negotiation-between-parents",
+      "title" : "Negotiation between parents",
+      "tags" : [
+        {
+          "name" : "Medium-high partner communication",
+          "slug" : "med-high-partner-comms"
+        },
+        {
+          "name" : "Low-medium conflict",
+          "slug" : "low-med-conflict"
+        }
+      ],
+      "introduction" : "<p>The cheapest and easiest way to make arrangements for children is for parents to negotiate between themselves.</p><p>However, this can only work if the separation is amicable and both parents already agree on the majority of issues.</p><p><a href=\"\">Find out more about negotiating yourselves</a></p>",
+      "cost" : {
+        "scale" : 0,
+        "info" : "<p>Free</p>"
+      },
+      "duration" : {
+        "info" : "<p>There’s no timetable - how long the process takes is up to the parents.</p>"
+      },
+      "helpline" : {
+        "info" : "<p>There are several tools and services that can help you:</p><ul><li>Parenting plan: <a href=\"https://www.cafcass.gov.uk/grown-ups/parenting-plan.aspx\">https://www.cafcass.gov.uk/grown-ups/parenting-plan.aspx</a></li><li>Negotiating techniques tool: <a href=\"http://www.separatedfamilies.info/home/parenting-apart/negotiations/\">http://www.separatedfamilies.info/home/parenting-apart/negotiations/</a></li><li>Putting kids first plan: <a href=\"http://www.splittingup-putkidsfirst.org.uk/home\">http://www.splittingup-putkidsfirst.org.uk/home</a></li><li>Arrange child maintenance yourself: <a href=\"https://www.gov.uk/arranging-child-maintenance-yourself\">https://www.gov.uk/arranging-child-maintenance-yourself</a></li></ul>"
+      },
+      "pros" : [
+        {
+          "text" : "cheapest and quickest process"
+        },
+        {
+          "text" : "parents are in control"
+        },
+        {
+          "text" : "helps children continue family relationships"
+        },
+        {
+          "text" : "improves communication between parents"
+        },
+        {
+          "text" : "can easily adapt plans"
+        },
+        {
+          "text" : "lots of free tools and services to help"
+        }
+      ],
+      "cons" : [
+        {
+          "text" : "agreements aren’t legally binding"
+        },
+        {
+          "text" : "parents must be on good terms with each other"
+        }
+      ],
+      "other" : ""
+    },
   {
-    "id" : 1,
+    "id" : 2,
     "template" : "detail",
     "slug" : "mediation",
     "title" : "Mediation",
@@ -56,7 +112,7 @@
     "other" : ""
   },
   {
-    "id" : 2,
+    "id" : 3,
     "template" : "detail",
     "slug" : "collaborative-law",
     "title" : "Collaborative Law",
@@ -109,7 +165,7 @@
     "other" : ""
   },
   {
-    "id" : 3,
+    "id" : 4,
     "template" : "detail",
     "slug" : "family-arbitration",
     "title" : "Family Arbitration",
@@ -160,59 +216,6 @@
       },
       {
         "text" : "process isn’t flexible - the arbitrator’s decision is final"
-      }
-    ],
-    "other" : ""
-  },
-  {
-    "id" : 4,
-    "template" : "detail",
-    "slug" : "going-to-court",
-    "title" : "Going to court",
-    "tags" : [
-      {
-        "name" : "Medium-high partner communication",
-        "slug" : "med-high-partner-comms"
-      },
-      {
-        "name" : "Low-medium conflict",
-        "slug" : "low-med-conflict"
-      }
-    ],
-    "introduction" : "<p>In most cases going to court to make child arrangements should be the last resort. It can take a long time and be an expensive and stressful process, especially for the children.</p><p>There are some situations when <a href=\"\">you must go to court to make child arrangements.</a></p><p>Parents should consider other options like <a href=\"/mediation\">mediation</a> or <a href=\"/collaborative-law\">collaborative law</a> before applying for a court order.</p> <p><a href=\"\">Find out more about going to court</a></p>",
-    "cost" : {
-      "scale" : 4,
-      "info" : "<p>Depends on how complicated the case is.</p>"
-    },
-    "duration" : {
-      "info" : "<p>The average court case for child arrangements is 26 weeks.</p>"
-    },
-    "helpline" : {
-      "info" : "<p>01689 820272 (Resolution) <br />Calls charged at local rate</p>"
-    },
-    "pros" : [
-      {
-        "text" : "legally binding decision"
-      }
-    ],
-    "cons" : [
-      {
-        "text" : "can be expensive"
-      },
-      {
-        "text" : "court process takes a long time"
-      },
-      {
-        "text" : "less parental control - a judge will make the decision"
-      },
-      {
-        "text" : "more stressful for children"
-      },
-      {
-        "text" : "increased chance of parent conflict"
-      },
-      {
-        "text" : "most people won’t get legal aid for solicitor fees"
       }
     ],
     "other" : ""
@@ -273,62 +276,6 @@
   {
     "id" : 6,
     "template" : "detail",
-    "slug" : "negotiation-between-parents",
-    "title" : "Negotiation between parents",
-    "tags" : [
-      {
-        "name" : "Medium-high partner communication",
-        "slug" : "med-high-partner-comms"
-      },
-      {
-        "name" : "Low-medium conflict",
-        "slug" : "low-med-conflict"
-      }
-    ],
-    "introduction" : "<p>The cheapest and easiest way to make arrangements for children is for parents to negotiate between themselves.</p><p>However, this can only work if the separation is amicable and both parents already agree on the majority of issues.</p><p><a href=\"\">Find out more about negotiating yourselves</a></p>",
-    "cost" : {
-      "scale" : 0,
-      "info" : "<p>Free</p>"
-    },
-    "duration" : {
-      "info" : "<p>There’s no timetable - how long the process takes is up to the parents.</p>"
-    },
-    "helpline" : {
-      "info" : "<p>There are several tools and services that can help you:</p><ul><li>Parenting plan: <a href=\"https://www.cafcass.gov.uk/grown-ups/parenting-plan.aspx\">https://www.cafcass.gov.uk/grown-ups/parenting-plan.aspx</a></li><li>Negotiating techniques tool: <a href=\"http://www.separatedfamilies.info/home/parenting-apart/negotiations/\">http://www.separatedfamilies.info/home/parenting-apart/negotiations/</a></li><li>Putting kids first plan: <a href=\"http://www.splittingup-putkidsfirst.org.uk/home\">http://www.splittingup-putkidsfirst.org.uk/home</a></li><li>Arrange child maintenance yourself: <a href=\"https://www.gov.uk/arranging-child-maintenance-yourself\">https://www.gov.uk/arranging-child-maintenance-yourself</a></li></ul>"
-    },
-    "pros" : [
-      {
-        "text" : "cheapest and quickest process"
-      },
-      {
-        "text" : "parents are in control"
-      },
-      {
-        "text" : "helps children continue family relationships"
-      },
-      {
-        "text" : "improves communication between parents"
-      },
-      {
-        "text" : "can easily adapt plans"
-      },
-      {
-        "text" : "lots of free tools and services to help"
-      }
-    ],
-    "cons" : [
-      {
-        "text" : "agreements aren’t legally binding"
-      },
-      {
-        "text" : "parents must be on good terms with each other"
-      }
-    ],
-    "other" : ""
-  },
-  {
-    "id" : 6,
-    "template" : "detail",
     "slug" : "solicitor-negotiation",
     "title" : "Solicitor negotiation",
     "tags" : [
@@ -375,6 +322,59 @@
       },
       {
         "text" : "it can be expensive"
+      }
+    ],
+    "other" : ""
+  },
+  {
+    "id" : 7,
+    "template" : "detail",
+    "slug" : "going-to-court",
+    "title" : "Going to court",
+    "tags" : [
+      {
+        "name" : "Medium-high partner communication",
+        "slug" : "med-high-partner-comms"
+      },
+      {
+        "name" : "Low-medium conflict",
+        "slug" : "low-med-conflict"
+      }
+    ],
+    "introduction" : "<p>In most cases going to court to make child arrangements should be the last resort. It can take a long time and be an expensive and stressful process, especially for the children.</p><p>There are some situations when <a href=\"\">you must go to court to make child arrangements.</a></p><p>Parents should consider other options like <a href=\"/mediation\">mediation</a> or <a href=\"/collaborative-law\">collaborative law</a> before applying for a court order.</p> <p><a href=\"\">Find out more about going to court</a></p>",
+    "cost" : {
+      "scale" : 4,
+      "info" : "<p>Depends on how complicated the case is.</p>"
+    },
+    "duration" : {
+      "info" : "<p>The average court case for child arrangements is 26 weeks.</p>"
+    },
+    "helpline" : {
+      "info" : "<p>01689 820272 (Resolution) <br />Calls charged at local rate</p>"
+    },
+    "pros" : [
+      {
+        "text" : "legally binding decision"
+      }
+    ],
+    "cons" : [
+      {
+        "text" : "can be expensive"
+      },
+      {
+        "text" : "court process takes a long time"
+      },
+      {
+        "text" : "less parental control - a judge will make the decision"
+      },
+      {
+        "text" : "more stressful for children"
+      },
+      {
+        "text" : "increased chance of parent conflict"
+      },
+      {
+        "text" : "most people won’t get legal aid for solicitor fees"
       }
     ],
     "other" : ""
