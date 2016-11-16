@@ -1,7 +1,7 @@
 {
   "template" :  "index",
   "title" : "Your options for making child arrangements",
-  "introduction" : "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium voluptatum, aperiam dignissimos nihil quo sed blanditiis molestias ratione, totam debitis commodi! Nihil error, enim accusantium quia doloribus ullam, quisquam mollitia!</p>",
+  "introduction" : "<p>Parents may need to agree child arrangements (also known as custody) if they divorce or separate.</p><p>For example, they must decide where the children will live and how much time they spend with each parent.</p><p>Parents can make arrangements themselves or use an adviser, such as a solicitor or mediator.</p><p>Which option parents choose usually depends on how well they can communicate after separation.</p>",
   "quicklinks" : [
     {
       "name" : "Worried about your child's safety?",
