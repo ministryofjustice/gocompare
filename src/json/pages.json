@@ -4,16 +4,6 @@
       "template" : "detail",
       "slug" : "negotiation-between-parents",
       "title" : "Negotiation between parents",
-      "tags" : [
-        {
-          "name" : "Medium-high partner communication",
-          "slug" : "med-high-partner-comms"
-        },
-        {
-          "name" : "Low-medium conflict",
-          "slug" : "low-med-conflict"
-        }
-      ],
       "introduction" : "<p>The cheapest and easiest way to make arrangements for children is for parents to negotiate between themselves.</p><p>However, this can only work if the separation is amicable and both parents already agree on the majority of issues.</p><p><a href=\"\">Find out more about negotiating yourselves</a></p>",
       "cost" : {
         "scale" : 0,
