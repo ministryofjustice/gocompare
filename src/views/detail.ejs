@@ -1,15 +1,12 @@
 <% include components/header.ejs %>
 <article class="c-details">
   <section class="u-primary">
+    <ul class="c-breadcrumbs">
+      <li><a href="/">Home</a></li>
+      <li><%= page.title %></li>
+    </ul>
     <div class="c-headed-text">
       <h1><a href=""><%= page.title %></a></h1>
-      <div class="c-details__tags">
-        <ul>
-          <% page.tags.forEach(function(tag, i){ %>
-            <li><%= tag.name %></li>
-          <% }) %>
-        </ul>
-      </div>
       <div class="c-details__intro divider">
         <%- page.introduction %>
       </div>
