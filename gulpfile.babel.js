@@ -39,6 +39,7 @@ let io = {
 const path = {
   views: '/views',
   scripts: '/scripts',
+  images: '/images',
   styles: '/styles'
 }
 
@@ -98,6 +99,10 @@ gulp.task('static', () => {
   // Favico
   gulp.src(io.in+'/favicon.ico')
   .pipe(gulp.dest(io.out))
+  // Images
+  // TODO: Add compression function to this.
+  gulp.src(io.in+path.images+'/**/*.*')
+  .pipe(gulp.dest(io.out+'/static/'+path.images))
 });
 
 // Process theme

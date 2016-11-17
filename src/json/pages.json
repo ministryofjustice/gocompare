@@ -9,12 +9,11 @@
         "scale" : 0,
         "info" : "<p>Free</p>"
       },
-      "duration" : {
-        "info" : "<p>There’s no timetable - how long the process takes is up to the parents.</p>"
-      },
+      "usp_callout" : "<p><strong>Parents should consider this if</strong> they feel nervous about negotiating or discussing complex issues. It's also useful if there are difficult legal issues to be resolved.</p>",
       "helpline" : {
         "info" : "<p>There are several tools and services that can help you:</p><ul><li>Parenting plan: <a href=\"https://www.cafcass.gov.uk/grown-ups/parenting-plan.aspx\">https://www.cafcass.gov.uk/grown-ups/parenting-plan.aspx</a></li><li>Negotiating techniques tool: <a href=\"http://www.separatedfamilies.info/home/parenting-apart/negotiations/\">http://www.separatedfamilies.info/home/parenting-apart/negotiations/</a></li><li>Putting kids first plan: <a href=\"http://www.splittingup-putkidsfirst.org.uk/home\">http://www.splittingup-putkidsfirst.org.uk/home</a></li><li>Arrange child maintenance yourself: <a href=\"https://www.gov.uk/arranging-child-maintenance-yourself\">https://www.gov.uk/arranging-child-maintenance-yourself</a></li></ul>"
       },
+      "process_image_link" : "static/images/process-full-mediation.jpg",
       "pros" : [
         {
           "text" : "cheapest and quickest process"
@@ -50,24 +49,13 @@
     "template" : "detail",
     "slug" : "mediation",
     "title" : "Mediation",
-    "tags" : [
-      {
-        "name" : "Medium-high partner communication",
-        "slug" : "med-high-partner-comms"
-      },
-      {
-        "name" : "Low-medium conflict",
-        "slug" : "low-med-conflict"
-      }
-    ],
     "introduction" : "<p>Parents can use the help of a mediator if they can’t agree on some issues. Mediators won’t take sides or give legal advice but will show all options available.</p><p>Mediation works for most people - two thirds of couples who attend reach an agreement.</p><p>Parents must first meet with a mediator to check if it’s right for them. This is called a Mediation Information and Assessment Meeting (MIAM).</p><p><a href=\"http://www.familymediationcouncil.org.uk/find-local-mediator/\">Find out more about mediation</a></p>",
     "cost" : {
       "scale" : 2,
       "info" : "<p>The average cost of a mediation session is <strong>£80</strong>.<br />How many sessions you have depends on the amount of issues you want to discuss.</p><p>If you don’t work, or are on a low income, you may be able to get legal aid</p><p><a href=\"https://checklegalaid.service.gov.uk/\">Check if you can get legal aid</a></p>"
     },
-    "duration" : {
-      "info" : "<p>Each session lasts approximately 90 minutes.</p>"
-    },
+    "process_image_link" : "static/images/process-full-mediation.jpg",
+    "usp_callout" : "<p><strong>Parents should consider this if</strong> they feel nervous about negotiating or discussing complex issues. It's also useful if there are difficult legal issues to be resolved.</p>",
     "helpline" : {
       "info" : "<p><a href=\"\">01920 443 834</a> (Family Mediation Council)<br / >Calls charged at a local rate</p>"
     },
@@ -106,24 +94,13 @@
     "template" : "detail",
     "slug" : "collaborative-law",
     "title" : "Collaborative Law",
-    "tags" : [
-      {
-        "name" : "Medium-high partner communication",
-        "slug" : "med-high-partner-comms"
-      },
-      {
-        "name" : "Low-medium conflict",
-        "slug" : "low-med-conflict"
-      }
-    ],
     "introduction" : "<p>Collaborative lawyers work with both parents to try and resolve their issues without having to go to court. After each parent appoints a lawyer everyone meets to negotiate face to face.</p><p>Negotiations are direct and efficient and give parents the opportunity to resolve issues in an amicable way.</p><p>Collaborative law is about wanting what’s best for the whole family. Both parents must be able to communicate with each other and need to go into it with an open mind.</p> <p><a href=\"\">Find out more about collaborative law</a></p>",
     "cost" : {
       "scale" : 4,
       "info" : "<p>Costs are hard to estimate, but could be in the region of £8,000 to £15,000.</p>"
     },
-    "duration" : {
-      "info" : "<p>There’s no timetable - how long the process takes is up to you and the other parent.</p>"
-    },
+    "process_image_link" : "static/images/process-full-mediation.jpg",
+    "usp_callout" : "<p><strong>Parents should consider this if</strong> they feel nervous about negotiating or discussing complex issues. It's also useful if there are difficult legal issues to be resolved.</p>",
     "helpline" : {
       "info" : "<p>01689 820272 (Resolution)<br />Calls charged at local rate</p>"
     },
@@ -159,24 +136,13 @@
     "template" : "detail",
     "slug" : "family-arbitration",
     "title" : "Family Arbitration",
-    "tags" : [
-      {
-        "name" : "Medium-high partner communication",
-        "slug" : "med-high-partner-comms"
-      },
-      {
-        "name" : "Low-medium conflict",
-        "slug" : "low-med-conflict"
-      }
-    ],
     "introduction" : "<p>Family arbitration is a type of dispute resolution that some people use instead of going to court. Both parents appoint an independent arbitrator who will make a decision based on relevant facts about the case.</p><p>The arbitrator’s decision is called an ‘determination’ and is final and legally binding.</p><p>For arbitration to work both parents need to be able to communicate with each other. They won’t need to meet face-to-face but will need to agree on some issues before the process starts.</p><p><a href=\"\">Find out more about family arbitration</a></p>",
     "cost" : {
       "scale" : 4,
       "info" : "<p>The cost varies from case to case and can depend on where parents live and the experience of the arbitrator. </p>"
     },
-    "duration" : {
-      "info" : "<p>How long it takes will depend on the case.</p>"
-    },
+    "process_image_link" : "static/images/process-full-mediation.jpg",
+    "usp_callout" : "<p><strong>Parents should consider this if</strong> they feel nervous about negotiating or discussing complex issues. It's also useful if there are difficult legal issues to be resolved.</p>",
     "helpline" : {
       "info" : "<p>Institute of Family Law Arbitrators: <a href=\"http://ifla.org.uk/\">http://ifla.org.uk/</a></p>"
     },
@@ -215,24 +181,13 @@
     "template" : "detail",
     "slug" : "lawyer-mediation",
     "title" : "Lawyer mediation",
-    "tags" : [
-      {
-        "name" : "Medium-high partner communication",
-        "slug" : "med-high-partner-comms"
-      },
-      {
-        "name" : "Low-medium conflict",
-        "slug" : "low-med-conflict"
-      }
-    ],
     "introduction" : "<p>Lawyer assisted mediation is slightly different to standard <a href=\"/mediation\">mediation</a>. In this process parents still use the help of a mediator but both their lawyers are also present.</p><p>Parents who use lawyer assisted mediation tend to because their case is complex or there are a lot of issues at stake.</p><p>The mediator is in charge of the whole process and will direct the parents and their lawyers to help.</p> <p><a href=\"\">Find out more about lawyer mediation</a></p>",
     "cost" : {
       "scale" : 4,
       "info" : "<p>This will depend on the day rate of the lawyers. Ask for a quote before you proceed.</p>"
     },
-    "duration" : {
-      "info" : "<p>The process usually takes place over one long session, rather than through several short mediation sessions.</p>"
-    },
+    "process_image_link" : "static/images/process-full-mediation.jpg",
+    "usp_callout" : "<p><strong>Parents should consider this if</strong> they feel nervous about negotiating or discussing complex issues. It's also useful if there are difficult legal issues to be resolved.</p>",
     "helpline" : {
       "info" : "<p>01920 443 834 (Family Mediation Council) <br />Calls charged at local rate</p>"
     },
@@ -268,24 +223,13 @@
     "template" : "detail",
     "slug" : "solicitor-negotiation",
     "title" : "Solicitor negotiation",
-    "tags" : [
-      {
-        "name" : "Medium-high partner communication",
-        "slug" : "med-high-partner-comms"
-      },
-      {
-        "name" : "Low-medium conflict",
-        "slug" : "low-med-conflict"
-      }
-    ],
     "introduction" : "<p>Solicitor negotiation is like <a href=\"/collaborative-law\">collaborative law</a> in that both parties try to resolve issues out of court. The difference is that the parents don’t meet to negotiate - this is all done by the solicitors.</p><p>Parents who use solicitors to negotiate tend to because their relationship is difficult, or there’s a lack of trust, following separation.</p><p><a href=\"\">Find out more about solicitor negotiation</a></p>",
     "cost" : {
       "scale" : 5,
       "info" : "<p>Costs are hard to estimate, but could be in the region of £8,000 to £15,000.</p>"
     },
-    "duration" : {
-      "info" : "<p>There’s no timetable - how long the process takes is down to how quickly you and the other parent can come to an agreement.</p>"
-    },
+    "process_image_link" : "static/images/process-full-mediation.jpg",
+    "usp_callout" : "<p><strong>Parents should consider this if</strong> they feel nervous about negotiating or discussing complex issues. It's also useful if there are difficult legal issues to be resolved.</p>",
     "helpline" : {
       "info" : "<p>Resolution: <a href=\"http://www.resolution.org.uk/findamember\">http://www.resolution.org.uk/findamember</a></p>"
     },
@@ -321,24 +265,13 @@
     "template" : "detail",
     "slug" : "going-to-court",
     "title" : "Going to court",
-    "tags" : [
-      {
-        "name" : "Medium-high partner communication",
-        "slug" : "med-high-partner-comms"
-      },
-      {
-        "name" : "Low-medium conflict",
-        "slug" : "low-med-conflict"
-      }
-    ],
     "introduction" : "<p>In most cases going to court to make child arrangements should be the last resort. It can take a long time and be an expensive and stressful process, especially for the children.</p><p>There are some situations when <a href=\"\">you must go to court to make child arrangements.</a></p><p>Parents should consider other options like <a href=\"/mediation\">mediation</a> or <a href=\"/collaborative-law\">collaborative law</a> before applying for a court order.</p> <p><a href=\"\">Find out more about going to court</a></p>",
     "cost" : {
       "scale" : 4,
       "info" : "<p>Depends on how complicated the case is.</p>"
     },
-    "duration" : {
-      "info" : "<p>The average court case for child arrangements is 26 weeks.</p>"
-    },
+    "process_image_link" : "static/images/process-full-mediation.jpg",
+    "usp_callout" : "<p><strong>Parents should consider this if</strong> they feel nervous about negotiating or discussing complex issues. It's also useful if there are difficult legal issues to be resolved.</p>",
     "helpline" : {
       "info" : "<p>01689 820272 (Resolution) <br />Calls charged at local rate</p>"
     },

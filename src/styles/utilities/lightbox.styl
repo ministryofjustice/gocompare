@@ -1,0 +1,24 @@
+&-lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: scroll;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba($dark, .7);
+  text-align: center;
+  img {
+    max-width: 100%;
+    +above(m) {
+      max-width: 90%;
+    }
+  }
+  i {
+    position: absolute;
+    top: $vspacing;
+    right: $hspacing;
+    font-size: 5rem;
+    cursor: pointer;
+    color: $light;
+  }
+}

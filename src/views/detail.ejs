@@ -14,140 +14,8 @@
     <dl class="c-details__infosheet">
       <dt>Cost:</dt>
       <dd>
-        <ul class="c-details__infosheet__scale">
-          <%# TODO: This needs refactoring! %>
-          <%
-              switch(page.cost.scale) {
-                case 1:
-          %>
-                <li class="fa-stack">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
-                </li>
-                <li class="fa-stack">
-                  <i class="fa fa-circle-thin fa-stack-2x"></i>
-                  <i class="fa fa-gbp fa-stack-1x"></i>
-                </li>
-                <li class="fa-stack">
-                  <i class="fa fa-circle-thin fa-stack-2x"></i>
-                  <i class="fa fa-gbp fa-stack-1x"></i>
-                </li>
-                <li class="fa-stack">
-                  <i class="fa fa-circle-thin fa-stack-2x"></i>
-                  <i class="fa fa-gbp fa-stack-1x"></i>
-                </li>
-                <li class="fa-stack">
-                  <i class="fa fa-circle-thin fa-stack-2x"></i>
-                  <i class="fa fa-gbp fa-stack-1x"></i>
-                </li>
-                <%
-                break;
-                case 2:
-                %>
-                <li class="fa-stack">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
-                </li>
-                <li class="fa-stack">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
-                </li>
-                <li class="fa-stack">
-                  <i class="fa fa-circle-thin fa-stack-2x"></i>
-                  <i class="fa fa-gbp fa-stack-1x"></i>
-                </li>
-                <li class="fa-stack">
-                  <i class="fa fa-circle-thin fa-stack-2x"></i>
-                  <i class="fa fa-gbp fa-stack-1x"></i>
-                </li>
-                <li class="fa-stack">
-                  <i class="fa fa-circle-thin fa-stack-2x"></i>
-                  <i class="fa fa-gbp fa-stack-1x"></i>
-                </li>
-                <%
-                break;
-                case 3:
-                %>
-                <li class="fa-stack">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
-                </li>
-                <li class="fa-stack">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
-                </li>
-                <li class="fa-stack">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
-                </li>
-                <li class="fa-stack">
-                  <i class="fa fa-circle-thin fa-stack-2x"></i>
-                  <i class="fa fa-gbp fa-stack-1x"></i>
-                </li>
-                <li class="fa-stack">
-                  <i class="fa fa-circle-thin fa-stack-2x"></i>
-                  <i class="fa fa-gbp fa-stack-1x"></i>
-                </li>
-                <%
-                break;
-                case 4:
-                %>
-                <li class="fa-stack">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
-                </li>
-                <li class="fa-stack">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
-                </li>
-                <li class="fa-stack">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
-                </li>
-                <li class="fa-stack">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
-                </li>
-                <li class="fa-stack">
-                  <i class="fa fa-circle-thin fa-stack-2x"></i>
-                  <i class="fa fa-gbp fa-stack-1x"></i>
-                </li>
-                <%
-                break;
-                case 2:
-                %>
-                <li class="fa-stack">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
-                </li>
-                <li class="fa-stack">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
-                </li>
-                <li class="fa-stack">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
-                </li>
-                <li class="fa-stack">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
-                </li>
-                <li class="fa-stack">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
-                </li>
-                <%
-                break;
-             } %>
-        </ul>
         <div class="info">
           <%- page.cost.info %>
-        </div>
-      </dd>
-      <dt>Duration:</dt>
-      <dd>
-        <div class="info">
-          <%- page.duration.info %>
         </div>
       </dd>
       <dt>Helpline:</dt>
@@ -181,6 +49,12 @@
       <div class="c-more-info__other">
         <%- page.other %>
       </div>
+    <% } %>
+    <% if(page.process_image_link) { %>
+    <div class="c-process-chart">
+      <h2><%= page.title %> process chart</h2>
+      <img class="c-lightbox" data-src="<%= page.process_image_link %>" src="<%= page.process_image_link %>" alt="<%= page.title %> process chart">
+    </div>
     <% } %>
   </aside>
 </article>
