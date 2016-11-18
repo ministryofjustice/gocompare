@@ -3,8 +3,8 @@
       "id" : 1,
       "template" : "detail",
       "slug" : "negotiation-between-parents",
-      "title" : "Negotiation between parents",
-      "introduction" : "<p>The cheapest and easiest way to make arrangements for children is for parents to negotiate between themselves.</p><p>However, this can only work if the separation is amicable and both parents already agree on the majority of issues.</p><p><a href=\"\">Find out more about negotiating yourselves</a></p>",
+      "title" : "Use negotiation tools and services",
+      "introduction" : "<p>The cheapest and easiest way to make child arrangements is for parents to negotiate between themselves.</p><p>There are several free <a href=\"\">online tools and services</a> that can help parents reach an agreement.</p>",
       "cost" : {
         "scale" : {
           "min" : 0,
@@ -43,7 +43,7 @@
         "quote" : "Elaine Helped us to get on with making things work on a practical level. To some extent we had to put aside the angry feelings we had towards each other. This wasn't easy, but we both felt that doing so would be best for the children",
         "quote_author" : "Bryony"
       },
-      "usp_callout" : "<p><strong>Parents should consider this if</strong> they feel nervous about negotiating or discussing complex issues. It's also useful if there are difficult legal issues to be resolved.</p>",
+      "usp_callout" : "<p><strong>Parents should consider this if</strong> they can still communicate with each other and already agree on the majority of issues.</p>",
       "helpline" : {
         "info" : "<p>There are several tools and services that can help you:</p><ul><li>Parenting plan: <a href=\"https://www.cafcass.gov.uk/grown-ups/parenting-plan.aspx\">https://www.cafcass.gov.uk/grown-ups/parenting-plan.aspx</a></li><li>Negotiating techniques tool: <a href=\"http://www.separatedfamilies.info/home/parenting-apart/negotiations/\">http://www.separatedfamilies.info/home/parenting-apart/negotiations/</a></li><li>Putting kids first plan: <a href=\"http://www.splittingup-putkidsfirst.org.uk/home\">http://www.splittingup-putkidsfirst.org.uk/home</a></li><li>Arrange child maintenance yourself: <a href=\"https://www.gov.uk/arranging-child-maintenance-yourself\">https://www.gov.uk/arranging-child-maintenance-yourself</a></li></ul>"
       },
@@ -59,13 +59,7 @@
           "text" : "helps children continue family relationships"
         },
         {
-          "text" : "improves communication between parents"
-        },
-        {
-          "text" : "can easily adapt plans"
-        },
-        {
-          "text" : "lots of free tools and services to help"
+          "text" : "agreements are flexible"
         }
       ],
       "cons" : [
@@ -73,7 +67,7 @@
           "text" : "agreements aren’t legally binding"
         },
         {
-          "text" : "parents must be on good terms with each other"
+          "text" : "process heavily relies on parent co-operation"
         }
       ],
       "other" : ""
@@ -83,14 +77,14 @@
     "template" : "detail",
     "slug" : "mediation",
     "title" : "Mediation",
-    "introduction" : "<p>Parents can use the help of a mediator if they can’t agree on some issues. Mediators won’t take sides or give legal advice but will show all options available.</p><p>Mediation works for most people - two thirds of couples who attend reach an agreement.</p><p>Parents must first meet with a mediator to check if it’s right for them. This is called a Mediation Information and Assessment Meeting (MIAM).</p><p><a href=\"http://www.familymediationcouncil.org.uk/find-local-mediator/\">Find out more about mediation</a></p>",
+    "introduction" : "<p>Parents can use a mediator if they can’t agree on some issues. Mediators won’t take sides or give legal advice but will try and help parents reach an agreement.</p><p>Parents must first meet with a mediator to check if mediation is right for them. This is called a <a href=\"http://www.nfm.org.uk/index.php/family-mediation/mediation-information-meeting-miam\">Mediation Information and Assessment Meeting</a> (MIAM).</p><p>Mediation works for most people - two thirds of couples who attend reach an agreement.</p>",
     "cost" : {
       "scale" : {
         "min" : 0,
         "max" : 10
       },
       "image_link" : "static/images/costs/cost_court.svg",
-      "info" : "<p>The average cost of a mediation session is <strong>£80</strong>.<br />How many sessions you have depends on the amount of issues you want to discuss.</p><p>If you don’t work, or are on a low income, you may be able to get legal aid</p><p><a href=\"https://checklegalaid.service.gov.uk/\">Check if you can get legal aid</a></p>"
+      "info" : "<p>The average cost of a mediation session is <strong>£80</strong>.<br />How many sessions you have depends on the amount of issues you want to discuss.</p><p>If you don’t work, or are on a low income, you may be able to get legal aid for mediation.</p><p><a href=\"https://checklegalaid.service.gov.uk/\">Check if you can get legal aid</a></p>"
     },
     "process_image_link" : "static/images/process-full-mediation.jpg",
     "who_is_involved" : [
@@ -123,7 +117,7 @@
       "quote" : "Elaine Helped us to get on with making things work on a practical level. To some extent we had to put aside the angry feelings we had towards each other. This wasn't easy, but we both felt that doing so would be best for the children",
       "quote_author" : "Bryony"
     },
-    "usp_callout" : "<p><strong>Parents should consider this if</strong> they feel nervous about negotiating or discussing complex issues. It's also useful if there are difficult legal issues to be resolved.</p>",
+    "usp_callout" : "<p><strong>Parents should consider this if</strong> they can still communicate with each other but are struggling to agree on all the issues.</p>",
     "helpline" : {
       "info" : "<p><a href=\"\">01920 443 834</a> (Family Mediation Council)<br / >Calls charged at a local rate</p>"
     },
@@ -141,15 +135,12 @@
         "text" : "helps children continue family relationships"
       },
       {
-        "text" : "improves parent communication "
-      },
-      {
         "text" : "agreements are flexible"
       }
     ],
     "cons" : [
       {
-        "text" : "requires high level of parent co-operation"
+        "text" : "process heavily relies on parent co-operation"
       },
       {
         "text" : "agreements aren’t legally binding"
@@ -162,7 +153,7 @@
     "template" : "detail",
     "slug" : "collaborative-law",
     "title" : "Collaborative Law",
-    "introduction" : "<p>Collaborative lawyers work with both parents to try and resolve their issues without having to go to court. After each parent appoints a lawyer everyone meets to negotiate face to face.</p><p>Negotiations are direct and efficient and give parents the opportunity to resolve issues in an amicable way.</p><p>Collaborative law is about wanting what’s best for the whole family. Both parents must be able to communicate with each other and need to go into it with an open mind.</p> <p><a href=\"\">Find out more about collaborative law</a></p>",
+    "introduction" : "<p>Collaborative lawyers work with both parents to try and resolve their issues without having to go to court. After each parent appoints a lawyer everyone meets to negotiate face to face.</p><p>Negotiations are direct and efficient and give parents the opportunity to resolve issues in an amicable way.</p><p><a href=\"\">Find out more about collaborative law</a></p>",
     "cost" : {
       "scale" : {
         "min" : 0,
@@ -202,13 +193,13 @@
       "quote" : "Elaine Helped us to get on with making things work on a practical level. To some extent we had to put aside the angry feelings we had towards each other. This wasn't easy, but we both felt that doing so would be best for the children",
       "quote_author" : "Bryony"
     },
-    "usp_callout" : "<p><strong>Parents should consider this if</strong> they feel nervous about negotiating or discussing complex issues. It's also useful if there are difficult legal issues to be resolved.</p>",
+    "usp_callout" : "<p><strong>Parents should consider this if</strong> they can communicate with each other and are open to working together to resolve their issues.</p>",
     "helpline" : {
       "info" : "<p>01689 820272 (Resolution)<br />Calls charged at local rate</p>"
     },
     "pros" : [
       {
-        "text" : "everyone is committed to not going to court"
+        "text" : "everyone committed to not going to court"
       },
       {
         "text" : "quicker and less stressful than court"
@@ -228,7 +219,7 @@
         "text" : "expensive process"
       },
       {
-        "text" : "parents must trust each other equally"
+        "text" : "won't work unless parents approach it in exactly the same way"
       }
     ],
     "other" : ""
@@ -317,7 +308,7 @@
     "template" : "detail",
     "slug" : "lawyer-mediation",
     "title" : "Lawyer mediation",
-    "introduction" : "<p>Lawyer assisted mediation is slightly different to standard <a href=\"/mediation\">mediation</a>. In this process parents still use the help of a mediator but both their lawyers are also present.</p><p>Parents who use lawyer assisted mediation tend to because their case is complex or there are a lot of issues at stake.</p><p>The mediator is in charge of the whole process and will direct the parents and their lawyers to help.</p> <p><a href=\"\">Find out more about lawyer mediation</a></p>",
+    "introduction" : "<p>Lawyer assisted mediation is slightly different to standard <a href=\"/mediation\">mediation</a>. Parents still use the help of a mediator but both appoint their own lawyers who also attend.</p><p><p>The mediator is in charge and will direct the parents and their lawyers to help the process.</p><p><a href=\"\">Find out more about lawyer mediation</a></p>",
     "cost" : {
       "scale" : {
         "min" : 0,
@@ -357,7 +348,7 @@
       "quote" : "Elaine Helped us to get on with making things work on a practical level. To some extent we had to put aside the angry feelings we had towards each other. This wasn't easy, but we both felt that doing so would be best for the children",
       "quote_author" : "Bryony"
     },
-    "usp_callout" : "<p><strong>Parents should consider this if</strong> they feel nervous about negotiating or discussing complex issues. It's also useful if there are difficult legal issues to be resolved.</p>",
+    "usp_callout" : "<p><strong>Parents should consider this if</strong> they're nervous about negotiating and there are a lot of complex issues to resolve.</p>",
     "helpline" : {
       "info" : "<p>01920 443 834 (Family Mediation Council) <br />Calls charged at local rate</p>"
     },
@@ -366,24 +357,18 @@
         "text" : "quicker than court"
       },
       {
-        "text" : "process is flexible"
+        "text" : "lawyer present throughout process"
       },
       {
-        "text" : "useful if the case is complex"
+        "text" : "useful in complex cases"
       },
       {
-        "text" : "helps parents who may be nervous about negotiating"
-      },
-      {
-        "text" : "lawyers draw up legally binding agreement"
+        "text" : "lawyers draw up agreement"
       }
     ],
     "cons" : [
       {
         "text" : "presence of lawyers makes it expensive"
-      },
-      {
-        "text" : "requires parental cooperation"
       }
     ],
     "other" : ""
@@ -393,7 +378,7 @@
     "template" : "detail",
     "slug" : "solicitor-negotiation",
     "title" : "Solicitor negotiation",
-    "introduction" : "<p>Solicitor negotiation is like <a href=\"/collaborative-law\">collaborative law</a> in that both parties try to resolve issues out of court. The difference is that the parents don’t meet to negotiate - this is all done by the solicitors.</p><p>Parents who use solicitors to negotiate tend to because their relationship is difficult, or there’s a lack of trust, following separation.</p><p><a href=\"\">Find out more about solicitor negotiation</a></p>",
+    "introduction" : "<p>Solicitor negotiation is like <a href=\"/collaborative-law\">collaborative law</a> in that both parties try to resolve issues out of court.</p><p>The difference is that the parents don’t meet to negotiate - this is all done by the solicitors.</p><p><a href=\"\">Find out more about solicitor negotiation</a></p>",
     "cost" : {
       "scale" : {
         "min" : 0,
@@ -433,7 +418,7 @@
       "quote" : "Elaine Helped us to get on with making things work on a practical level. To some extent we had to put aside the angry feelings we had towards each other. This wasn't easy, but we both felt that doing so would be best for the children",
       "quote_author" : "Bryony"
     },
-    "usp_callout" : "<p><strong>Parents should consider this if</strong> they feel nervous about negotiating or discussing complex issues. It's also useful if there are difficult legal issues to be resolved.</p>",
+    "usp_callout" : "<p><strong>Parents should consider this if</strong> their relationship is difficult and they'd prefer not to meet, or there's a lack of trust.</p>",
     "helpline" : {
       "info" : "<p>Resolution: <a href=\"http://www.resolution.org.uk/findamember\">http://www.resolution.org.uk/findamember</a></p>"
     },
@@ -453,7 +438,7 @@
     ],
     "cons" : [
       {
-        "text" : "it can be seen as a confrontational approach"
+        "text" : "can be seen as a confrontational approach"
       },
       {
         "text" : "parents can sometimes feel they’re not in control"
@@ -469,7 +454,7 @@
     "template" : "detail",
     "slug" : "going-to-court",
     "title" : "Going to court",
-    "introduction" : "<p>In most cases going to court to make child arrangements should be the last resort. It can take a long time and be an expensive and stressful process, especially for the children.</p><p>There are some situations when <a href=\"\">you must go to court to make child arrangements.</a></p><p>Parents should consider other options like <a href=\"/mediation\">mediation</a> or <a href=\"/collaborative-law\">collaborative law</a> before applying for a court order.</p> <p><a href=\"\">Find out more about going to court</a></p>",
+    "introduction" : "<p>Parents can go to court if they can't agree on arrangements. A judge will assess their case and make a decision for them.</p><p>Court should be the last resort for most parents as it can take a long time and be expensive. It's also often a stressful experience, especially for children.</p><p><a href=\"\">Find out more about going to court</a></p>",
     "cost" : {
       "scale" : {
         "min" : 0,
@@ -509,7 +494,7 @@
       "quote" : "Elaine Helped us to get on with making things work on a practical level. To some extent we had to put aside the angry feelings we had towards each other. This wasn't easy, but we both felt that doing so would be best for the children",
       "quote_author" : "Bryony"
     },
-    "usp_callout" : "<p><strong>Parents should consider this if</strong> they feel nervous about negotiating or discussing complex issues. It's also useful if there are difficult legal issues to be resolved.</p>",
+    "usp_callout" : "<p><strong>Parents should consider this if</strong> they've tried all other options and still can't agree arrangements</p><p>You will need to go to court if there's an urgent issue, for example there's concern about the safety of the child or one of the parents.</p>",
     "helpline" : {
       "info" : "<p>01689 820272 (Resolution) <br />Calls charged at local rate</p>"
     },
@@ -529,13 +514,10 @@
         "text" : "less parental control - a judge will make the decision"
       },
       {
-        "text" : "more stressful for children"
+        "text" : "can be more stressful for children"
       },
       {
         "text" : "increased chance of parent conflict"
-      },
-      {
-        "text" : "most people won’t get legal aid for solicitor fees"
       }
     ],
     "other" : ""
