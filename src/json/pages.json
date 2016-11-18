@@ -4,7 +4,7 @@
       "template" : "detail",
       "slug" : "negotiation-between-parents",
       "title" : "Use negotiation tools and services",
-      "introduction" : "<p>The cheapest and easiest way to make child arrangements is for parents to negotiate between themselves.</p><p>There are several free <a href=\"\">online tools and services</a> that can help parents reach an agreement.</p>",
+      "introduction" : "<p>The cheapest and easiest way to make child arrangements is for parents to negotiate between themselves.</p><p>There are several free <a href=\"\">online tools and services</a> that can help parents reach an agreement.</p><p><a href=\"/negotiation-between-parents\">Read more</a></p>",
       "cost" : {
         "scale" : {
           "min" : 0,
@@ -77,7 +77,7 @@
     "template" : "detail",
     "slug" : "mediation",
     "title" : "Mediation",
-    "introduction" : "<p>Parents can use a mediator if they can’t agree on some issues. Mediators won’t take sides or give legal advice but will try and help parents reach an agreement.</p><p>Parents must first meet with a mediator to check if mediation is right for them. This is called a <a href=\"http://www.nfm.org.uk/index.php/family-mediation/mediation-information-meeting-miam\">Mediation Information and Assessment Meeting</a> (MIAM).</p><p>Mediation works for most people - two thirds of couples who attend reach an agreement.</p>",
+    "introduction" : "<p>Parents can use a mediator if they can’t agree on some issues. Mediators won’t take sides or give legal advice but will try and help parents reach an agreement.</p><p>Parents must first meet with a mediator to check if mediation is right for them. This is called a <a href=\"http://www.nfm.org.uk/index.php/family-mediation/mediation-information-meeting-miam\">Mediation Information and Assessment Meeting</a> (MIAM).</p><p>Mediation works for most people - two thirds of couples who attend reach an agreement.</p><p><a href=\"/mediation\">Read more</a></p>",
     "cost" : {
       "scale" : {
         "min" : 0,
@@ -153,7 +153,7 @@
     "template" : "detail",
     "slug" : "collaborative-law",
     "title" : "Collaborative Law",
-    "introduction" : "<p>Collaborative lawyers work with both parents to try and resolve their issues without having to go to court. After each parent appoints a lawyer everyone meets to negotiate face to face.</p><p>Negotiations are direct and efficient and give parents the opportunity to resolve issues in an amicable way.</p><p><a href=\"\">Find out more about collaborative law</a></p>",
+    "introduction" : "<p>Collaborative lawyers work with both parents to try and resolve their issues without having to go to court. After each parent appoints a lawyer everyone meets to negotiate face to face.</p><p>Negotiations are direct and efficient and give parents the opportunity to resolve issues in an amicable way.</p><p><a href=\"/collaborative-law\">Read more</a></p>",
     "cost" : {
       "scale" : {
         "min" : 0,
@@ -219,7 +219,7 @@
         "text" : "expensive process"
       },
       {
-        "text" : "won't work unless parents approach it in exactly the same way"
+        "text" : "won't work unless parents equally trust each other"
       }
     ],
     "other" : ""
@@ -308,7 +308,7 @@
     "template" : "detail",
     "slug" : "lawyer-mediation",
     "title" : "Lawyer mediation",
-    "introduction" : "<p>Lawyer assisted mediation is slightly different to standard <a href=\"/mediation\">mediation</a>. Parents still use the help of a mediator but both appoint their own lawyers who also attend.</p><p><p>The mediator is in charge and will direct the parents and their lawyers to help the process.</p><p><a href=\"\">Find out more about lawyer mediation</a></p>",
+    "introduction" : "<p>Lawyer assisted mediation is slightly different to standard <a href=\"/mediation\">mediation</a>. Parents still use the help of a mediator but both appoint their own lawyers who also attend.</p><p><p>The mediator is in charge and will direct the parents and their lawyers to help the process.</p><p><a href=\"/lawyer-mediation\">Read more</a></p>",
     "cost" : {
       "scale" : {
         "min" : 0,
@@ -378,7 +378,7 @@
     "template" : "detail",
     "slug" : "solicitor-negotiation",
     "title" : "Solicitor negotiation",
-    "introduction" : "<p>Solicitor negotiation is like <a href=\"/collaborative-law\">collaborative law</a> in that both parties try to resolve issues out of court.</p><p>The difference is that the parents don’t meet to negotiate - this is all done by the solicitors.</p><p><a href=\"\">Find out more about solicitor negotiation</a></p>",
+    "introduction" : "<p>Solicitor negotiation is like <a href=\"/collaborative-law\">collaborative law</a> in that both parties try to resolve issues out of court.</p><p>The difference is that the parents don’t meet to negotiate - this is all done by the solicitors.</p><p><a href=\"/solicitor-negotiation\">Read more</a></p>",
     "cost" : {
       "scale" : {
         "min" : 0,
@@ -454,7 +454,7 @@
     "template" : "detail",
     "slug" : "going-to-court",
     "title" : "Going to court",
-    "introduction" : "<p>Parents can go to court if they can't agree on arrangements. A judge will assess their case and make a decision for them.</p><p>Court should be the last resort for most parents as it can take a long time and be expensive. It's also often a stressful experience, especially for children.</p><p><a href=\"\">Find out more about going to court</a></p>",
+    "introduction" : "<p>Parents can go to court if they can't agree on arrangements. A judge will assess their case and make a decision for them.</p><p>Court should be the last resort for most parents as it can take a long time and be expensive. It's also often a stressful experience, especially for children.</p><p><a href=\"/going-to-court\">Read more</a></p>",
     "cost" : {
       "scale" : {
         "min" : 0,
