@@ -42,6 +42,18 @@
           </dl>
         </div>
         <aside class="u-secondary">
+          <div class="c-who-is-involved">
+            <h2>Who's involved</h2>
+            <ul>
+              <% page.who_is_involved.forEach(function(wii) {
+                if(wii.value > 0) {
+                  for(var i = 0; i<wii.value;i++) { %>
+                    <li class="<%= wii.slug %>"><span class="tooltip"><%= wii.key %></span></li>
+                  <% }
+                }
+              })%>
+            </ul>
+          </div>
           <div class="c-proscons">
             <% if (page.pros) { %>
             <div class="c-proscons__pros">

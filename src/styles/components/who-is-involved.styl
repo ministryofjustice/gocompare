@@ -1,0 +1,60 @@
+&-who-is-involved {
+  text-align: center;
+  +above(l) {
+    text-align: left;
+  }
+  margin-bottom: $vspacing*3;
+  padding: $spacing;
+  background-color: $boxbg;
+  li {
+    position: relative;
+    display: inline-block;
+    width:  $hspacing*4;
+    height: $vspacing*4;
+    background-size: contain;
+    background-repeat: no-repeat;
+    &.parentguardian {
+      background-image: url(/static/images/attending-icons/parent.svg);
+    }
+    &.mediator {
+      background-image: url(/static/images/attending-icons/mediator.svg);
+    }
+    &.lawyersolicitor {
+      background-image: url(/static/images/attending-icons/lawyer_solicitor.svg);
+    }
+    &.judgecourt {
+      background-image: url(/static/images/attending-icons/judge_court.svg);
+    }
+    &:hover {
+      .tooltip {
+        display: block;
+      }
+    }
+  }
+  .tooltip {
+    position: absolute;
+    color: $light;
+    background-color: $dark;
+    text-align: center;
+    padding: $vspacing $hspacing ($vspacing/2);
+    top: -($vspacing*4);
+    left: -($hspacing*5);
+    width: $hspacing*14;
+    display: none;
+    border-radius: $brad;
+    &:after {
+    	top: 100%;
+    	left: 50%;
+    	border: solid transparent;
+    	content: " ";
+    	height: 0;
+    	width: 0;
+    	position: absolute;
+    	pointer-events: none;
+    	border-color: rgba(41, 55, 64, 0);
+    	border-top-color: $dark;
+    	border-width: 10px;
+    	margin-left: -10px;
+    }
+  }
+}

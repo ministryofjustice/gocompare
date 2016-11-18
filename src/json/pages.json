@@ -15,18 +15,22 @@
       },
       "who_is_involved" : [
           {
+            "slug" : "parentguardian",
             "key" : "Parent/Guardian",
             "value" : 2
           },
           {
+            "slug" : "mediator",
             "key" : "Mediator",
             "value" : 2
           },
           {
+            "slug" : "lawyersolicitor",
             "key" : "Lawyer/Solicitor",
             "value" : 1
           },
           {
+            "slug" : "judgecourt",
             "key" : "Judge/Court",
             "value" : 1
           }
@@ -89,18 +93,22 @@
     "process_image_link" : "static/images/process-full-mediation.jpg",
     "who_is_involved" : [
         {
+          "slug" : "parentguardian",
           "key" : "Parent/Guardian",
           "value" : 2
         },
         {
+          "slug" : "mediator",
           "key" : "Mediator",
           "value" : 2
         },
         {
+          "slug" : "lawyersolicitor",
           "key" : "Lawyer/Solicitor",
           "value" : 1
         },
         {
+          "slug" : "judgecourt",
           "key" : "Judge/Court",
           "value" : 1
         }
@@ -165,18 +173,22 @@
     "process_image_link" : "static/images/process-full-mediation.jpg",
     "who_is_involved" : [
         {
+          "slug" : "parentguardian",
           "key" : "Parent/Guardian",
           "value" : 2
         },
         {
+          "slug" : "mediator",
           "key" : "Mediator",
           "value" : 2
         },
         {
+          "slug" : "lawyersolicitor",
           "key" : "Lawyer/Solicitor",
           "value" : 1
         },
         {
+          "slug" : "judgecourt",
           "key" : "Judge/Court",
           "value" : 1
         }
@@ -241,18 +253,22 @@
     "process_image_link" : "static/images/process-full-mediation.jpg",
     "who_is_involved" : [
         {
+          "slug" : "parentguardian",
           "key" : "Parent/Guardian",
           "value" : 2
         },
         {
+          "slug" : "mediator",
           "key" : "Mediator",
           "value" : 2
         },
         {
+          "slug" : "lawyersolicitor",
           "key" : "Lawyer/Solicitor",
           "value" : 1
         },
         {
+          "slug" : "judgecourt",
           "key" : "Judge/Court",
           "value" : 1
         }
@@ -320,18 +336,22 @@
     "process_image_link" : "static/images/process-full-mediation.jpg",
     "who_is_involved" : [
         {
+          "slug" : "parentguardian",
           "key" : "Parent/Guardian",
           "value" : 2
         },
         {
+          "slug" : "mediator",
           "key" : "Mediator",
           "value" : 2
         },
         {
+          "slug" : "lawyersolicitor",
           "key" : "Lawyer/Solicitor",
           "value" : 1
         },
         {
+          "slug" : "judgecourt",
           "key" : "Judge/Court",
           "value" : 1
         }
@@ -390,18 +410,22 @@
     "process_image_link" : "static/images/process-full-mediation.jpg",
     "who_is_involved" : [
         {
+          "slug" : "parentguardian",
           "key" : "Parent/Guardian",
           "value" : 2
         },
         {
+          "slug" : "mediator",
           "key" : "Mediator",
           "value" : 2
         },
         {
+          "slug" : "lawyersolicitor",
           "key" : "Lawyer/Solicitor",
           "value" : 1
         },
         {
+          "slug" : "judgecourt",
           "key" : "Judge/Court",
           "value" : 1
         }
@@ -466,18 +490,22 @@
     "process_image_link" : "static/images/process-full-mediation.jpg",
     "who_is_involved" : [
         {
+          "slug" : "parentguardian",
           "key" : "Parent/Guardian",
           "value" : 2
         },
         {
+          "slug" : "mediator",
           "key" : "Mediator",
           "value" : 2
         },
         {
+          "slug" : "lawyersolicitor",
           "key" : "Lawyer/Solicitor",
           "value" : 1
         },
         {
+          "slug" : "judgecourt",
           "key" : "Judge/Court",
           "value" : 1
         }
