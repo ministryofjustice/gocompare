@@ -62,7 +62,12 @@ a {
   min-height:100vh;
 }
 
+// Columns
+
 .u-primary {
+    +above(l) {
+      col(2/3, cycle: 2);
+    }
     h1 {
       font-size: $mantle;
       margin-bottom: $vspacing;
@@ -85,4 +90,14 @@ a {
         margin-bottom: $vspacing;
       }
     }
+}
+
+.u-secondary {
+  +above(l) {
+    col(1/3, cycle: 2);
+  }
+  padding: $spacing;
+  h2 {
+    margin-bottom: $vspacing;
+  }
 }

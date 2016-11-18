@@ -13,6 +13,36 @@
         "image_link" : "static/images/costs/cost_court.svg",
         "info" : "<p>Free</p>"
       },
+      "who_is_involved" : [
+          {
+            "key" : "Parent/Guardian",
+            "value" : 2
+          },
+          {
+            "key" : "Mediator",
+            "value" : 2
+          },
+          {
+            "key" : "Lawyer/Solicitor",
+            "value" : 1
+          },
+          {
+            "key" : "Judge/Court",
+            "value" : 1
+          }
+      ],
+      "video" : {
+        "title" : "Mediation process video",
+        "thumbnail" : "",
+        "youtube_url" : ""
+      },
+      "case_study" : {
+        "title" : "Bryony and Tom",
+        "summary" : "<ul><li>Divorced</li><li>Children aged 7 years and 5 years</li><li>Combined total cost: £480</li><li>Total length of mediation: 2 weeks (3 sessions)</li></ul>",
+        "copy" : "<p>Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam. Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam. Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam.</p><p>Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam. Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam.</p><p>Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam.</p>",
+        "quote" : "Elaine Helped us to get on with making things work on a practical level. To some extent we had to put aside the angry feelings we had towards each other. This wasn't easy, but we both felt that doing so would be best for the children",
+        "quote_author" : "Bryony"
+      },
       "usp_callout" : "<p><strong>Parents should consider this if</strong> they feel nervous about negotiating or discussing complex issues. It's also useful if there are difficult legal issues to be resolved.</p>",
       "helpline" : {
         "info" : "<p>There are several tools and services that can help you:</p><ul><li>Parenting plan: <a href=\"https://www.cafcass.gov.uk/grown-ups/parenting-plan.aspx\">https://www.cafcass.gov.uk/grown-ups/parenting-plan.aspx</a></li><li>Negotiating techniques tool: <a href=\"http://www.separatedfamilies.info/home/parenting-apart/negotiations/\">http://www.separatedfamilies.info/home/parenting-apart/negotiations/</a></li><li>Putting kids first plan: <a href=\"http://www.splittingup-putkidsfirst.org.uk/home\">http://www.splittingup-putkidsfirst.org.uk/home</a></li><li>Arrange child maintenance yourself: <a href=\"https://www.gov.uk/arranging-child-maintenance-yourself\">https://www.gov.uk/arranging-child-maintenance-yourself</a></li></ul>"
@@ -63,6 +93,36 @@
       "info" : "<p>The average cost of a mediation session is <strong>£80</strong>.<br />How many sessions you have depends on the amount of issues you want to discuss.</p><p>If you don’t work, or are on a low income, you may be able to get legal aid</p><p><a href=\"https://checklegalaid.service.gov.uk/\">Check if you can get legal aid</a></p>"
     },
     "process_image_link" : "static/images/process-full-mediation.jpg",
+    "who_is_involved" : [
+        {
+          "key" : "Parent/Guardian",
+          "value" : 2
+        },
+        {
+          "key" : "Mediator",
+          "value" : 2
+        },
+        {
+          "key" : "Lawyer/Solicitor",
+          "value" : 1
+        },
+        {
+          "key" : "Judge/Court",
+          "value" : 1
+        }
+    ],
+    "video" : {
+      "title" : "Mediation process video",
+      "thumbnail" : "",
+      "youtube_url" : ""
+    },
+    "case_study" : {
+      "title" : "Bryony and Tom",
+      "summary" : "<ul><li>Divorced</li><li>Children aged 7 years and 5 years</li><li>Combined total cost: £480</li><li>Total length of mediation: 2 weeks (3 sessions)</li></ul>",
+      "copy" : "<p>Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam. Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam. Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam.</p><p>Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam. Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam.</p><p>Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam.</p>",
+      "quote" : "Elaine Helped us to get on with making things work on a practical level. To some extent we had to put aside the angry feelings we had towards each other. This wasn't easy, but we both felt that doing so would be best for the children",
+      "quote_author" : "Bryony"
+    },
     "usp_callout" : "<p><strong>Parents should consider this if</strong> they feel nervous about negotiating or discussing complex issues. It's also useful if there are difficult legal issues to be resolved.</p>",
     "helpline" : {
       "info" : "<p><a href=\"\">01920 443 834</a> (Family Mediation Council)<br / >Calls charged at a local rate</p>"
@@ -112,6 +172,36 @@
       "info" : "<p>Costs are hard to estimate, but could be in the region of £8,000 to £15,000.</p>"
     },
     "process_image_link" : "static/images/process-full-mediation.jpg",
+    "who_is_involved" : [
+        {
+          "key" : "Parent/Guardian",
+          "value" : 2
+        },
+        {
+          "key" : "Mediator",
+          "value" : 2
+        },
+        {
+          "key" : "Lawyer/Solicitor",
+          "value" : 1
+        },
+        {
+          "key" : "Judge/Court",
+          "value" : 1
+        }
+    ],
+    "video" : {
+      "title" : "Mediation process video",
+      "thumbnail" : "",
+      "youtube_url" : ""
+    },
+    "case_study" : {
+      "title" : "Bryony and Tom",
+      "summary" : "<ul><li>Divorced</li><li>Children aged 7 years and 5 years</li><li>Combined total cost: £480</li><li>Total length of mediation: 2 weeks (3 sessions)</li></ul>",
+      "copy" : "<p>Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam. Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam. Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam.</p><p>Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam. Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam.</p><p>Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam.</p>",
+      "quote" : "Elaine Helped us to get on with making things work on a practical level. To some extent we had to put aside the angry feelings we had towards each other. This wasn't easy, but we both felt that doing so would be best for the children",
+      "quote_author" : "Bryony"
+    },
     "usp_callout" : "<p><strong>Parents should consider this if</strong> they feel nervous about negotiating or discussing complex issues. It's also useful if there are difficult legal issues to be resolved.</p>",
     "helpline" : {
       "info" : "<p>01689 820272 (Resolution)<br />Calls charged at local rate</p>"
@@ -158,6 +248,36 @@
       "info" : "<p>The cost varies from case to case and can depend on where parents live and the experience of the arbitrator. </p>"
     },
     "process_image_link" : "static/images/process-full-mediation.jpg",
+    "who_is_involved" : [
+        {
+          "key" : "Parent/Guardian",
+          "value" : 2
+        },
+        {
+          "key" : "Mediator",
+          "value" : 2
+        },
+        {
+          "key" : "Lawyer/Solicitor",
+          "value" : 1
+        },
+        {
+          "key" : "Judge/Court",
+          "value" : 1
+        }
+    ],
+    "video" : {
+      "title" : "Mediation process video",
+      "thumbnail" : "",
+      "youtube_url" : ""
+    },
+    "case_study" : {
+      "title" : "Bryony and Tom",
+      "summary" : "<ul><li>Divorced</li><li>Children aged 7 years and 5 years</li><li>Combined total cost: £480</li><li>Total length of mediation: 2 weeks (3 sessions)</li></ul>",
+      "copy" : "<p>Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam. Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam. Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam.</p><p>Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam. Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam.</p><p>Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam.</p>",
+      "quote" : "Elaine Helped us to get on with making things work on a practical level. To some extent we had to put aside the angry feelings we had towards each other. This wasn't easy, but we both felt that doing so would be best for the children",
+      "quote_author" : "Bryony"
+    },
     "usp_callout" : "<p><strong>Parents should consider this if</strong> they feel nervous about negotiating or discussing complex issues. It's also useful if there are difficult legal issues to be resolved.</p>",
     "helpline" : {
       "info" : "<p>Institute of Family Law Arbitrators: <a href=\"http://ifla.org.uk/\">http://ifla.org.uk/</a></p>"
@@ -207,6 +327,36 @@
       "info" : "<p>This will depend on the day rate of the lawyers. Ask for a quote before you proceed.</p>"
     },
     "process_image_link" : "static/images/process-full-mediation.jpg",
+    "who_is_involved" : [
+        {
+          "key" : "Parent/Guardian",
+          "value" : 2
+        },
+        {
+          "key" : "Mediator",
+          "value" : 2
+        },
+        {
+          "key" : "Lawyer/Solicitor",
+          "value" : 1
+        },
+        {
+          "key" : "Judge/Court",
+          "value" : 1
+        }
+    ],
+    "video" : {
+      "title" : "Mediation process video",
+      "thumbnail" : "",
+      "youtube_url" : ""
+    },
+    "case_study" : {
+      "title" : "Bryony and Tom",
+      "summary" : "<ul><li>Divorced</li><li>Children aged 7 years and 5 years</li><li>Combined total cost: £480</li><li>Total length of mediation: 2 weeks (3 sessions)</li></ul>",
+      "copy" : "<p>Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam. Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam. Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam.</p><p>Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam. Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam.</p><p>Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam.</p>",
+      "quote" : "Elaine Helped us to get on with making things work on a practical level. To some extent we had to put aside the angry feelings we had towards each other. This wasn't easy, but we both felt that doing so would be best for the children",
+      "quote_author" : "Bryony"
+    },
     "usp_callout" : "<p><strong>Parents should consider this if</strong> they feel nervous about negotiating or discussing complex issues. It's also useful if there are difficult legal issues to be resolved.</p>",
     "helpline" : {
       "info" : "<p>01920 443 834 (Family Mediation Council) <br />Calls charged at local rate</p>"
@@ -253,6 +403,36 @@
       "info" : "<p>Costs are hard to estimate, but could be in the region of £8,000 to £15,000.</p>"
     },
     "process_image_link" : "static/images/process-full-mediation.jpg",
+    "who_is_involved" : [
+        {
+          "key" : "Parent/Guardian",
+          "value" : 2
+        },
+        {
+          "key" : "Mediator",
+          "value" : 2
+        },
+        {
+          "key" : "Lawyer/Solicitor",
+          "value" : 1
+        },
+        {
+          "key" : "Judge/Court",
+          "value" : 1
+        }
+    ],
+    "video" : {
+      "title" : "Mediation process video",
+      "thumbnail" : "",
+      "youtube_url" : ""
+    },
+    "case_study" : {
+      "title" : "Bryony and Tom",
+      "summary" : "<ul><li>Divorced</li><li>Children aged 7 years and 5 years</li><li>Combined total cost: £480</li><li>Total length of mediation: 2 weeks (3 sessions)</li></ul>",
+      "copy" : "<p>Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam. Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam. Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam.</p><p>Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam. Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam.</p><p>Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam.</p>",
+      "quote" : "Elaine Helped us to get on with making things work on a practical level. To some extent we had to put aside the angry feelings we had towards each other. This wasn't easy, but we both felt that doing so would be best for the children",
+      "quote_author" : "Bryony"
+    },
     "usp_callout" : "<p><strong>Parents should consider this if</strong> they feel nervous about negotiating or discussing complex issues. It's also useful if there are difficult legal issues to be resolved.</p>",
     "helpline" : {
       "info" : "<p>Resolution: <a href=\"http://www.resolution.org.uk/findamember\">http://www.resolution.org.uk/findamember</a></p>"
@@ -299,6 +479,36 @@
       "info" : "<p>Depends on how complicated the case is.</p>"
     },
     "process_image_link" : "static/images/process-full-mediation.jpg",
+    "who_is_involved" : [
+        {
+          "key" : "Parent/Guardian",
+          "value" : 2
+        },
+        {
+          "key" : "Mediator",
+          "value" : 2
+        },
+        {
+          "key" : "Lawyer/Solicitor",
+          "value" : 1
+        },
+        {
+          "key" : "Judge/Court",
+          "value" : 1
+        }
+    ],
+    "video" : {
+      "title" : "Mediation process video",
+      "thumbnail" : "",
+      "youtube_url" : ""
+    },
+    "case_study" : {
+      "title" : "Bryony and Tom",
+      "summary" : "<ul><li>Divorced</li><li>Children aged 7 years and 5 years</li><li>Combined total cost: £480</li><li>Total length of mediation: 2 weeks (3 sessions)</li></ul>",
+      "copy" : "<p>Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam. Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam. Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam.</p><p>Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam. Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam.</p><p>Lorem ipsum sed at tincidunt volutpat rutrum, placerat tortor lobortis odio efficitur, Aliquam.</p>",
+      "quote" : "Elaine Helped us to get on with making things work on a practical level. To some extent we had to put aside the angry feelings we had towards each other. This wasn't easy, but we both felt that doing so would be best for the children",
+      "quote_author" : "Bryony"
+    },
     "usp_callout" : "<p><strong>Parents should consider this if</strong> they feel nervous about negotiating or discussing complex issues. It's also useful if there are difficult legal issues to be resolved.</p>",
     "helpline" : {
       "info" : "<p>01689 820272 (Resolution) <br />Calls charged at local rate</p>"

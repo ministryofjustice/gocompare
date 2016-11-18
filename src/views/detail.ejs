@@ -12,9 +12,13 @@
       </div>
     </div>
     <dl class="c-details__infosheet">
-      <dt>Cost:</dt>
-      <dd>
-        <div class="info">
+      <dd class="c-cost">
+        <div class="c-cost__scale">
+          <img src="<%= page.cost.image_link %>" alt="The scale can range from quite low to very high"/>
+          <span class="c-cost__scale__label">0</span>
+          <span class="c-cost__scale__label">&pound;100k</span>
+        </div>
+        <div class="c-cost__info">
           <%- page.cost.info %>
         </div>
       </dd>
@@ -26,30 +30,28 @@
       </dd>
     </dl>
   </section>
-  <aside class="u-secondary c-more-info">
-    <% if (page.pros) { %>
-    <div class="c-more-info__pros">
-      <h2>Pros:</h2>
-      <ul>
-        <% page.pros.forEach(function(pro, i) { %>
-          <li><i class="fa fa-check"></i><div><%- pro.text %></div></li>
-        <% }) %>
-      </ul>
-    </div>
-    <% } if (page.cons) { %>
-    <div class="c-more-info__cons">
-      <h2>Cons:</h2>
-      <ul>
-        <% page.cons.forEach(function(con, i) { %>
-          <li><i class="fa fa-close"></i><div><%- con.text %></div></li>
-        <% }) %>
-      </ul>
-    </div>
-    <% } if (page.other) { %>
-      <div class="c-more-info__other">
-        <%- page.other %>
+  <aside class="u-secondary">
+    <div class="c-proscons">
+      <% if (page.pros) { %>
+      <div class="c-proscons__pros">
+        <h2>Pros:</h2>
+        <ul>
+          <% page.pros.forEach(function(pro, i) { %>
+            <li><i class="fa fa-check"></i><div><%- pro.text %></div></li>
+          <% }) %>
+        </ul>
+      </div>
+      <% } if (page.cons) { %>
+      <div class="c-proscons__cons">
+        <h2>Cons:</h2>
+        <ul>
+          <% page.cons.forEach(function(con, i) { %>
+            <li><i class="fa fa-close"></i><div><%- con.text %></div></li>
+          <% }) %>
+        </ul>
       </div>
     <% } %>
+    </div>
     <% if(page.process_image_link) { %>
     <div class="c-process-chart">
       <h2><%= page.title %> process chart</h2>
