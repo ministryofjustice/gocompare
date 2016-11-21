@@ -1,0 +1,55 @@
+&-case-studies {
+  cf();
+  clear: both;
+  &__container {
+    margin-top: $vspacing;
+    padding: $spacing*3;
+    border: 1px solid $border;
+  }
+  &__stub {
+    h2 {
+      margin-bottom: $vspacing;
+    }
+    ul {
+      margin-left: 0;
+      list-style: none;
+      padding: $vspacing $hspacing*2 1px;
+      border-left: $hspacing solid lighten($primary, 60%);
+      margin-bottom: $vspacing*2;
+    }
+  }
+  &__quote {
+    background-color: $boxbg;
+    padding: $spacing*3;
+    line-height: $lineHeight*1.6;
+    .quote_body {
+      position: relative;
+      padding: 0 $hspacing*4;
+      margin-bottom: $vspacing*2;
+      &:before, &:after {
+        content: "“";
+        position: absolute;
+
+        width: $hspacing*4;
+        height: $vspacing*2;
+        text-indent: -9999px;
+        background: url(/static/images/quote.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      &:before {
+        top:0;
+        left:0;
+      }
+      &:after {
+        bottom:0;
+        right:0;
+        transform: rotate(180deg);
+      }
+    }
+    .quote_author {
+      display: block;
+      margin-left: $hspacing*4;
+    }
+  }
+}

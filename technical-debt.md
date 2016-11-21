@@ -5,5 +5,7 @@ Any development tasks or optimisations which need to be made should be listed he
 
 ## Tasks:
 1. Add 404 catching to invalid routes
+2. There is some repeating styling happening, this needs to be identified and made DRY.
 
 ## Issues
+1. There is a floating issue on the detail page. I had to add 'clear both' to the case studies components
