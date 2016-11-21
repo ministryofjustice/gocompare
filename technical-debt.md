@@ -10,4 +10,3 @@ Any development tasks or optimisations which need to be made should be listed he
 ## Issues
 1. There is a floating issue on the detail page. I had to add 'clear both' to the case studies components
 2. The spacing between components needs to be standardised, maybe make this a variable value.
-3. The 'help' component needs a bit of tlc
