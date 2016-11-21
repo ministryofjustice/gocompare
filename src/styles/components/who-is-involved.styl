@@ -57,4 +57,20 @@
     	margin-left: -10px;
     }
   }
+
+  &--legend {
+    cf();
+    h2 {
+      text-align: left;
+    }
+    li {
+      col(1);
+      +above(m) {
+        col(1/4);
+      }
+      text-align:left;
+      padding-left: $hspacing*6;
+      line-height: $lineHeight*3;
+    }
+  }
 }
