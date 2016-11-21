@@ -38,8 +38,8 @@
       ],
       "video" : {
         "title" : "Mediation process video",
-        "thumbnail" : "",
-        "youtube_url" : ""
+        "thumbnail" : "static/images/video-thumbnails/understanding-family-mediation.png",
+        "youtube_url" : "https://www.youtube.com/watch?v=zYhWdwazCZA"
       },
       "case_study" : {
         "title" : "Bryony and Tom",
@@ -52,7 +52,10 @@
       "helpline" : {
         "info" : "<p>There are several tools and services that can help you:</p><ul><li>Parenting plan: <a href=\"https://www.cafcass.gov.uk/grown-ups/parenting-plan.aspx\">https://www.cafcass.gov.uk/grown-ups/parenting-plan.aspx</a></li><li>Negotiating techniques tool: <a href=\"http://www.separatedfamilies.info/home/parenting-apart/negotiations/\">http://www.separatedfamilies.info/home/parenting-apart/negotiations/</a></li><li>Putting kids first plan: <a href=\"http://www.splittingup-putkidsfirst.org.uk/home\">http://www.splittingup-putkidsfirst.org.uk/home</a></li><li>Arrange child maintenance yourself: <a href=\"https://www.gov.uk/arranging-child-maintenance-yourself\">https://www.gov.uk/arranging-child-maintenance-yourself</a></li></ul>"
       },
-      "process_image_link" : "static/images/process-charts/process-full-mediation.jpg",
+      "process_image_link" :  {
+        "full" : "static/images/process-charts/process-full-mediation.jpg",
+        "thumbnail" : "static/images/process-charts/process-thumb-mediation.jpg"
+      },
       "pros" : [
         {
           "text" : "cheapest and quickest process"
@@ -92,7 +95,10 @@
       "image_link" : "static/images/costs/cost_court.svg",
       "info" : "<p>The average cost of a mediation session is <strong>£80</strong>.<br />How many sessions you have depends on the amount of issues you want to discuss.</p><p>If you don’t work, or are on a low income, you may be able to get legal aid for mediation.</p><p><a href=\"https://checklegalaid.service.gov.uk/\">Check if you can get legal aid</a></p>"
     },
-    "process_image_link" : "static/images/process-full-mediation.jpg",
+    "process_image_link" :  {
+      "full" : "static/images/process-charts/process-full-mediation.jpg",
+      "thumbnail" : "static/images/process-charts/process-thumb-mediation.jpg"
+    },
     "who_is_involved" : [
         {
           "slug" : "parentguardian",
@@ -173,7 +179,10 @@
       "image_link" : "static/images/costs/cost_court.svg",
       "info" : "<p>Costs are hard to estimate, but could be in the region of £8,000 to £15,000.</p>"
     },
-    "process_image_link" : "static/images/process-full-mediation.jpg",
+    "process_image_link" :  {
+      "full" : "static/images/process-charts/process-full-mediation.jpg",
+      "thumbnail" : "static/images/process-charts/process-thumb-mediation.jpg"
+    },
     "who_is_involved" : [
         {
           "slug" : "parentguardian",
@@ -254,7 +263,10 @@
       "image_link" : "static/images/costs/cost_court.svg",
       "info" : "<p>The cost varies from case to case and can depend on where parents live and the experience of the arbitrator. </p>"
     },
-    "process_image_link" : "static/images/process-full-mediation.jpg",
+    "process_image_link" :  {
+      "full" : "static/images/process-charts/process-full-mediation.jpg",
+      "thumbnail" : "static/images/process-charts/process-thumb-mediation.jpg"
+    },
     "who_is_involved" : [
         {
           "slug" : "parentguardian",
@@ -338,7 +350,10 @@
       "image_link" : "static/images/costs/cost_court.svg",
       "info" : "<p>This will depend on the day rate of the lawyers. Ask for a quote before you proceed.</p>"
     },
-    "process_image_link" : "static/images/process-full-mediation.jpg",
+    "process_image_link" :  {
+      "full" : "static/images/process-charts/process-full-mediation.jpg",
+      "thumbnail" : "static/images/process-charts/process-thumb-mediation.jpg"
+    },
     "who_is_involved" : [
         {
           "slug" : "parentguardian",
@@ -413,7 +428,10 @@
       "image_link" : "static/images/costs/cost_court.svg",
       "info" : "<p>Costs are hard to estimate, but could be in the region of £8,000 to £15,000.</p>"
     },
-    "process_image_link" : "static/images/process-full-mediation.jpg",
+    "process_image_link" :  {
+      "full" : "static/images/process-charts/process-full-mediation.jpg",
+      "thumbnail" : "static/images/process-charts/process-thumb-mediation.jpg"
+    },
     "who_is_involved" : [
         {
           "slug" : "parentguardian",
@@ -494,7 +512,10 @@
       "image_link" : "static/images/costs/cost_court.svg",
       "info" : "<p>Depends on how complicated the case is.</p>"
     },
-    "process_image_link" : "static/images/process-full-mediation.jpg",
+    "process_image_link" :  {
+      "full" : "static/images/process-charts/process-full-mediation.jpg",
+      "thumbnail" : "static/images/process-charts/process-thumb-mediation.jpg"
+    },
     "who_is_involved" : [
         {
           "slug" : "parentguardian",

@@ -11,24 +11,25 @@
         <%- page.body_copy %>
       </div>
     </div>
-    <dl class="c-details__infosheet">
-      <dd class="c-cost">
-        <div class="c-cost__scale">
-          <img src="<%= page.cost.image_link %>" alt="The scale can range from quite low to very high"/>
-          <span class="c-cost__scale__label">0</span>
-          <span class="c-cost__scale__label">&pound;100k</span>
+    <div class="two-columns-uneven">
+      <% if(page.video.title) { %>
+        <div class="c-video-player">
+          <h2><%= page.video.title %></h2>
+          <div class="c-video-player__container">
+            <img src="<%= page.video.thumbnail %>" alt="<%= page.video.title %>">
+          </div>
         </div>
-        <div class="c-cost__info">
-          <%- page.cost.info %>
-        </div>
-      </dd>
-      <dt>Helpline:</dt>
-      <dd>
-        <div class="info">
-          <%- page.helpline.info %>
-        </div>
-      </dd>
-    </dl>
+      <% } %>
+      <% if(page.process_image_link.full) { %>
+      <div class="c-process-chart">
+        <h2><%= page.title %> process chart</h2>
+        <a class="c-lightbox" href="<%= page.process_image_link.full %>">
+          <img src="<%= page.process_image_link.thumbnail %>" alt="<%= page.title %> process chart">
+          <%= page.title %> process chart
+        </a>
+      </div>
+      <% } %>
+    </div>
   </section>
   <aside class="u-secondary">
     <div class="c-proscons">
@@ -52,12 +53,24 @@
       </div>
     <% } %>
     </div>
-    <% if(page.process_image_link) { %>
-    <div class="c-process-chart">
-      <h2><%= page.title %> process chart</h2>
-      <img class="c-lightbox" data-src="<%= page.process_image_link %>" src="<%= page.process_image_link %>" alt="<%= page.title %> process chart">
+    <div class="c-cost">
+      <h2>Cost</h2>
+      <span>(per person):</span>
+      <div class="c-cost__scale">
+        <img src="<%= page.cost.image_link %>" alt="The scale can range from quite low to very high"/>
+        <span class="c-cost__scale__label">0</span>
+        <span class="c-cost__scale__label">&pound;100k</span>
+      </div>
+      <div class="c-cost__info">
+        <%- page.cost.info %>
+      </div>
     </div>
-    <% } %>
+    <div class="c-help-info">
+      <h2>Help:</h2>
+      <div class="info">
+        <%- page.helpline.info %>
+      </div>
+    </div>
   </aside>
 </article>
 <% include components/footer.ejs %>

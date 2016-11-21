@@ -63,7 +63,6 @@ a {
 }
 
 // Columns
-
 .u-primary {
     +above(l) {
       col(2/3, cycle: 2);
@@ -89,6 +88,17 @@ a {
       li {
         margin-bottom: $vspacing;
       }
+    }
+    .two-columns-uneven {
+      +above(m) {
+        div {
+          span(2/3);
+          & + div {
+            span(1/3);
+          }
+        }
+      }
+
     }
 }
 
