@@ -1,9 +1,9 @@
 // I'm not convinved jQuery is still the best way to do this sort of thing anymore
 // however it will have to do until I've got time to look into a suitable replacement.
 
-if ($('.c-lightbox'.length)) {
+if ($('.c-process-chart__lightbox').length) {
   // a lightbox has been found
-  $('.c-lightbox').each(function() {
+  $('.c-process-chart__lightbox').each(function() {
     let thisel = $(this);
     let body = $('body');
     let src = $(this).attr('href');

@@ -39,7 +39,7 @@
       "video" : {
         "title" : "",
         "thumbnail" : "",
-        "youtube_url" : "",
+        "youtube_code" : "",
         "description" : ""
       },
       "case_study" : [
@@ -134,7 +134,7 @@
     "video" : {
       "title" : "The Mediation process",
       "thumbnail" : "static/images/video-thumbnails/understanding-family-mediation.png",
-      "youtube_url" : "https://www.youtube.com/watch?v=zYhWdwazCZA",
+      "youtube_code" : "zYhWdwazCZA",
       "description" : "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt maxime temporibus iure autem! Totam sed, natus officiis, commodi dicta voluptas, aspernatur eius ratione, amet consequatur dolores laboriosam mollitia. Eum, harum!</p>"
     },
     "case_study" : [
@@ -221,7 +221,7 @@
     "video" : {
       "title" : "",
       "thumbnail" : "",
-      "youtube_url" : "",
+      "youtube_code" : "",
        "description" : ""
 
     },
@@ -316,7 +316,7 @@
     "video" : {
       "title" : "",
       "thumbnail" : "",
-      "youtube_url" : "",
+      "youtube_code" : "",
        "description" : ""
 
     },
@@ -405,7 +405,7 @@
     "video" : {
       "title" : "",
       "thumbnail" : "",
-      "youtube_url" : "",
+      "youtube_code" : "",
        "description" : ""
 
     },
@@ -500,7 +500,7 @@
     "video" : {
       "title" : "",
       "thumbnail" : "",
-      "youtube_url" : "",
+      "youtube_code" : "",
        "description" : ""
 
     },

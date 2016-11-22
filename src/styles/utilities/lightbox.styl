@@ -21,4 +21,19 @@
     cursor: pointer;
     color: $light;
   }
+  &--video {
+    iframe {
+      margin: $spacing*2;
+      width: 100%;
+      height: auto;
+      +above(m) {
+        width: 640px;
+        height: 360px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -180px 0 0 -320px;
+      }
+    }
+  }
 }

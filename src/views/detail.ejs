@@ -15,8 +15,8 @@
       <% if(page.video.title) { %>
         <div class="c c-video-player">
           <h2><%= page.video.title %></h2>
-          <div class="c-video-player__container">
-            <img src="<%= page.video.thumbnail %>" alt="<%= page.video.title %>">
+          <div class="c-video-player__container c-video-player__lightbox">
+            <img data-youtube="<%= page.video.youtube_code %>" src="<%= page.video.thumbnail %>" alt="<%= page.video.title %>">
           </div>
           <% if(page.video.description) { %>
             <%- page.video.description %>
@@ -26,7 +26,7 @@
       <% if(page.process_image_link.full) { %>
       <div class="c c-process-chart">
         <h2><%= page.title %> process chart</h2>
-        <a class="c-lightbox" href="<%= page.process_image_link.full %>">
+        <a class="c-process-chart__lightbox" href="<%= page.process_image_link.full %>">
           <img src="<%= page.process_image_link.thumbnail %>" alt="<%= page.title %> process chart">
           <%= page.title %> process chart
         </a>
