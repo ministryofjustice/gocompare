@@ -1,19 +1,19 @@
 <% include components/header.ejs %>
 <article class="c-details">
   <section class="u-primary">
-    <ul class="c-breadcrumbs">
+    <ul class="c c-breadcrumbs">
       <li><a href="/">Home</a></li>
       <li><%= page.title %></li>
     </ul>
-    <div class="c-headed-text">
+    <div class="c c-headed-text">
       <h1><a href=""><%= page.title %></a></h1>
-      <div class="c-body-copy divider">
+      <div class="c c-body-copy divider">
         <%- page.body_copy %>
       </div>
     </div>
     <div class="two-columns-uneven">
       <% if(page.video.title) { %>
-        <div class="c-video-player">
+        <div class="c c-video-player">
           <h2><%= page.video.title %></h2>
           <div class="c-video-player__container">
             <img src="<%= page.video.thumbnail %>" alt="<%= page.video.title %>">
@@ -21,7 +21,7 @@
         </div>
       <% } %>
       <% if(page.process_image_link.full) { %>
-      <div class="c-process-chart">
+      <div class="c c-process-chart">
         <h2><%= page.title %> process chart</h2>
         <a class="c-lightbox" href="<%= page.process_image_link.full %>">
           <img src="<%= page.process_image_link.thumbnail %>" alt="<%= page.title %> process chart">
@@ -30,7 +30,7 @@
       </div>
       <% } %>
     </div>
-    <section class="c-case-studies">
+    <section class="c c-case-studies">
       <h1>Case Studies</h1>
       <div class="c-case-studies__container">
         <div class="c-case-studies__stub">
@@ -48,7 +48,7 @@
     </section>
   </section>
   <aside class="u-secondary">
-    <div class="c-proscons">
+    <div class="c c-proscons">
       <% if (page.pros) { %>
       <div class="c-proscons__pros">
         <h2>Pros:</h2>
@@ -69,7 +69,7 @@
       </div>
     <% } %>
     </div>
-    <div class="c-cost">
+    <div class="c c-cost">
       <h2>Cost</h2>
       <span>(per person):</span>
       <div class="c-cost__scale">
@@ -81,7 +81,7 @@
         <%- page.cost.info %>
       </div>
     </div>
-    <div class="c-help-info">
+    <div class="c c-help-info">
       <h2>Help:</h2>
       <div class="info">
         <%- page.helpline.info %>

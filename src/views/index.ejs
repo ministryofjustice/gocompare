@@ -1,5 +1,5 @@
 <% include components/header.ejs %>
-<div class="full divider">
+<div class="full">
   <div class="c c-headed-text u-primary">
     <h1><%= content.title %></h1>
     <%- content.introduction %>
@@ -15,7 +15,7 @@
   </div>
 </div>
 <div class="full">
-   <div class="c-who-is-involved c-who-is-involved--legend">
+   <div class="c c-who-is-involved c-who-is-involved--legend">
      <h2>Key:</h2>
      <ul>
        <li class="parentguardian">Parent/Guardian</li>
@@ -27,18 +27,20 @@
    <ul class="c c-article-list">
   <% pages.forEach(function(page, i) { %>
     <li>
-      <section class="c-article-list__summary">
+      <section class="c-article-list__summary divider">
         <div class="u-primary">
-          <h1><a href="<%= page.slug %>"><%= page.title %></a></h1>
-          <%- page.introduction %>
-          <div class="c-usp-callout">
+          <div class="c c-body-copy">
+            <h1><a href="<%= page.slug %>"><%= page.title %></a></h1>
+            <%- page.introduction %>
+          </div>
+          <div class="c c-usp-callout">
             <blockquote>
               <%- page.usp_callout %>
             </blockquote>
           </div>
           <dl class="c-details__infosheet">
-            <dt>Cost:</dt>
-            <dd class="c-cost">
+            <dt>Cost (per person):</dt>
+            <dd class="c c-cost">
               <div class="c-cost__scale">
                 <img src="<%= page.cost.image_link %>" alt="The scale can range from quite low to very high"/>
                 <span class="c-cost__scale__label">0</span>
@@ -51,7 +53,7 @@
           </dl>
         </div>
         <aside class="u-secondary">
-          <div class="c-who-is-involved">
+          <div class="c c-who-is-involved">
             <h2>Who's involved</h2>
             <ul>
               <% page.who_is_involved.forEach(function(wii) {

@@ -1,9 +1,11 @@
 &-headed-text {
-  padding: $vspacing 0;
-  margin-bottom: $vspacing*2;
+  padding: $vspacing*2;
+  +above(l) {
+    padding: $vspacing 0;
+  }
   h1 {
     font-size: $crust;
-    margin-bottom: $vspacing;
+    margin-bottom: $vspacing*3.5;
   }
 
   p {
