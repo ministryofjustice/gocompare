@@ -6,18 +6,21 @@
       <li><%= page.title %></li>
     </ul>
     <div class="c c-headed-text">
-      <h1><a href=""><%= page.title %></a></h1>
-      <div class="c c-body-copy divider">
+      <h1><%= page.title %></h1>
+      <div class="c c-body-copy">
         <%- page.body_copy %>
       </div>
     </div>
-    <div class="two-columns-uneven">
+    <div class="two-columns-uneven divider">
       <% if(page.video.title) { %>
         <div class="c c-video-player">
           <h2><%= page.video.title %></h2>
           <div class="c-video-player__container">
             <img src="<%= page.video.thumbnail %>" alt="<%= page.video.title %>">
           </div>
+          <% if(page.video.description) { %>
+            <%- page.video.description %>
+          <% } %>
         </div>
       <% } %>
       <% if(page.process_image_link.full) { %>
@@ -29,6 +32,12 @@
         </a>
       </div>
       <% } %>
+    </div>
+    <div class="c c-resources">
+      <h2><%= page.title %> resources</h2>
+      <div class="info">
+        <%- page.resources.info %>
+      </div>
     </div>
     <section class="c c-case-studies">
       <h1>Case Studies</h1>
@@ -79,12 +88,6 @@
       </div>
       <div class="c-cost__info">
         <%- page.cost.info %>
-      </div>
-    </div>
-    <div class="c c-help-info">
-      <h2>Help:</h2>
-      <div class="info">
-        <%- page.helpline.info %>
       </div>
     </div>
   </aside>
