@@ -8,5 +8,6 @@ Any development tasks or optimisations which need to be made should be listed he
 2. There is some repeating styling happening, this needs to be identified and made DRY.
 3. The components need to be split into include files to ensure consistency
 4. Convert icon fonts to fontastic
+5. When making components into separate files, also make sure they are all sections and update tags accordingly
 
 ## Issues
