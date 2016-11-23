@@ -2,7 +2,7 @@
 // however it will have to do until I've got time to look into a suitable replacement.
 
 if ($('.c-video-player__lightbox').length) {
-  // a lightbox has been found
+  // a video player has been found
   $('.c-video-player__lightbox').each(function() {
     let thisel = $(this);
     let body = $('body');

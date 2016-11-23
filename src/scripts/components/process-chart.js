@@ -2,7 +2,7 @@
 // however it will have to do until I've got time to look into a suitable replacement.
 
 if ($('.c-process-chart__lightbox').length) {
-  // a lightbox has been found
+  // a process chart has been found
   $('.c-process-chart__lightbox').each(function() {
     let thisel = $(this);
     let body = $('body');
