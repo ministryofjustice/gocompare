@@ -5,7 +5,7 @@
       <li><a href="/">Home</a></li>
       <li><%= page.title %></li>
     </ul>
-    <div class="c c-headed-text">
+    <div class="c c-headed-text divider">
       <h1><%= page.title %></h1>
       <div class="c c-body-copy">
         <%- page.body_copy %>
@@ -19,9 +19,6 @@
           <div class="c-video-player__container c-video-player__lightbox">
             <img data-youtube="<%= page.video.youtube_code %>" src="<%= page.video.thumbnail %>" alt="<%= page.video.title %>">
           </div>
-          <% if(page.video.description) { %>
-            <%- page.video.description %>
-          <% } %>
         </div>
       <% } %>
       <% if(page.process_image_link.full) { %>
@@ -36,7 +33,7 @@
     </div>
     <% } %>
     <% if (page.resources.info) { %>
-    <div class="c c-resources">
+    <div class="c c-resources divider">
       <h2><%= page.title %> resources</h2>
       <div class="info">
         <%- page.resources.info %>
