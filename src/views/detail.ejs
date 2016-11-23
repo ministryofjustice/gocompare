@@ -34,7 +34,7 @@
     <% } %>
     <% if (page.resources.info) { %>
     <div class="c c-resources divider">
-      <h2><%= page.title %> resources</h2>
+      <h2><%= page.short_title ? page.short_title : page.title %> resources</h2>
       <div class="info">
         <%- page.resources.info %>
       </div>
