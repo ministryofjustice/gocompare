@@ -54,10 +54,12 @@
           </div>
           <div class="c-case-studies__toggle_visible">
             <%- cs.copy %>
-            <blockquote class="c-case-studies__quote">
-              <div class="quote_body"><%= cs.quote %></div>
-              <div class="quote_author"><%= cs.quote_author %></div>
-            </blockquote>
+            <% if(cs.quote) { %>
+              <blockquote class="c-case-studies__quote">
+                <div class="quote_body"><%= cs.quote %></div>
+                <div class="quote_author"><%= cs.quote_author %></div>
+              </blockquote>
+            <% } %>
           </div>
         </div>
       <% }) %>
