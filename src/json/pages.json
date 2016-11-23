@@ -39,24 +39,16 @@
       "video" : {
         "title" : "",
         "thumbnail" : "",
-        "youtube_code" : "",
-        "description" : ""
+        "youtube_code" : ""
       },
       "case_study" : [
-        {
-          "title" : "NEED A CASE STUDY",
-          "summary" : "<ul><li>Divorced</li><li>Children aged 7 years and 5 years</li><li>Combined total cost: £480</li><li>Total length of mediation: 2 weeks (3 sessions)</li></ul>",
-          "copy" : "<p>Things came to a head when 37 year-old Tom Jarvis moved out of the family home and into his new girlfriend’s flat.  Tom and his wife Bryony, 35, both acknowledged that their relationship was over but arguments about contact with the children escalated to a point where both 7 year-old Declan and Luci-Anne, 5, were clearly being affected by the conflict.</p><p>Declan’s teacher had noticed he was being unusually disruptive and sullen at school, whilst Luci-Anne was having difficulty sleeping at night.</p><p>As part of his bid to ensure continuing contact with the children, Tom had approached a solicitor and it was she who had suggested mediation at their local NFM service as a possible way ahead.</p><p>Although Bryony admitted that she had been sceptical about the idea of mediation at first, she and Tom agreed to try it as a means of breaking the deadlock.</p><p>Their mediator, Elaine, helped them to understand each other’s position and their children’s needs, and after three meetings they managed to arrive at an amicable solution, which meant Declan and Luci-Anne were able to spend time with both mum and dad. Tom and Bryony also agreed to schedule a review of arrangements for six months later to see how things were going.</p>",
-          "quote" : "Elaine Helped us to get on with making things work on a practical level. To some extent we had to put aside the angry feelings we had towards each other. This wasn't easy, but we both felt that doing so would be best for the children",
-          "quote_author" : "Bryony"
-        },
-        {
-          "title" : "NEED A CASE STUDY",
-          "summary" : "<ul><li>Divorced</li><li>Children aged 7 years and 5 years</li><li>Combined total cost: £480</li><li>Total length of mediation: 2 weeks (3 sessions)</li></ul>",
-          "copy" : "<p>Things came to a head when 37 year-old Tom Jarvis moved out of the family home and into his new girlfriend’s flat.  Tom and his wife Bryony, 35, both acknowledged that their relationship was over but arguments about contact with the children escalated to a point where both 7 year-old Declan and Luci-Anne, 5, were clearly being affected by the conflict.</p><p>Declan’s teacher had noticed he was being unusually disruptive and sullen at school, whilst Luci-Anne was having difficulty sleeping at night.</p><p>As part of his bid to ensure continuing contact with the children, Tom had approached a solicitor and it was she who had suggested mediation at their local NFM service as a possible way ahead.</p><p>Although Bryony admitted that she had been sceptical about the idea of mediation at first, she and Tom agreed to try it as a means of breaking the deadlock.</p><p>Their mediator, Elaine, helped them to understand each other’s position and their children’s needs, and after three meetings they managed to arrive at an amicable solution, which meant Declan and Luci-Anne were able to spend time with both mum and dad. Tom and Bryony also agreed to schedule a review of arrangements for six months later to see how things were going.</p>",
-          "quote" : "Elaine Helped us to get on with making things work on a practical level. To some extent we had to put aside the angry feelings we had towards each other. This wasn't easy, but we both felt that doing so would be best for the children",
-          "quote_author" : "Bryony"
-        }
+	      {
+	        "title" : "Louise and Tom",
+	        "summary" : "<ul><li>Separated</li><li>Children aged 6 months</li><li>Combined total cost: Free</li></ul>",
+	        "copy" : "<p>Things came to a head when the John told Louise that he didn’t love her anymore and it soon became fairly clear that whilst he hadn’t had an affair, there was someone else on the scene who he’d developed a good friendship with.</p><p>They have a six month old daughter and for her they’ve done their best to put their own feelings aside and keep things as amicable as possible. Its been difficult as until recently they were still living together and sharing a bed.</p><p>They communicate regularly by text; the child is staying at John’s house on Tuesdays and Thursdays.</p><p>They really hope it is possible to stay amicable long term, Louise say’s that it helps that she was so unhappy and agreed to the break up, but even then being replaced by a “younger prettier model” so quickly still really hurts, but if I can put those feelings aside for the sake of my daughter then fingers crossed, we can build a new partnership as parents rather than partners.</p>",
+	        "quote" : "",
+	        "quote_author" : ""
+	      }
       ],
       "usp_callout" : "<p><strong>Parents should consider this if</strong> they can still communicate with each other and already agree on the majority of issues.</p>",
       "resources" : {
@@ -134,10 +126,16 @@
     "video" : {
       "title" : "The Mediation process",
       "thumbnail" : "static/images/video-thumbnails/mediation-thumb.png",
-      "youtube_code" : "zYhWdwazCZA",
-      "description" : "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt maxime temporibus iure autem! Totam sed, natus officiis, commodi dicta voluptas, aspernatur eius ratione, amet consequatur dolores laboriosam mollitia. Eum, harum!</p>"
+      "youtube_code" : "zYhWdwazCZA"
     },
     "case_study" : [
+      {
+        "title" : "Maria and Levi",
+        "summary" : "<ul><li>Separated</li><li>Children aged 8 years and 10 years</li><li>Combined total cost: £480</li><li>Total length of mediation: 2 weeks (3 sessions)</li></ul>",
+        "copy" : "<p>Having experienced the devastating effect of her sister’s acrimonious divorce two years earlier, Maria Bell, 34, decided mediation was worth investigating when she and her partner Levi, 36, separated, if only for the sake of their children – 8 year old Isabella and 10 year old Cora. Friends had also recommended the process.</p><p>After a short series of mediation sessions, Maria and Levi made agreements about family finances, including the mortgage they had taken on their three-bedroomed terrace Midlands home, and what would happen to the modest savings they had managed to make during their time together.</p><p>They also found a way to agree that both would be able to spend good quality time with Isabella and Cora.</p>",
+        "quote" : "Most importantly she helped us come to an agreement about our children’s future and the kids seem much happier now they have accepted life has changed, but mum and dad are still both there for them.",
+        "quote_author" : "Levi"
+      },
       {
         "title" : "Bryony and Tom",
         "summary" : "<ul><li>Divorced</li><li>Children aged 7 years and 5 years</li><li>Combined total cost: £480</li><li>Total length of mediation: 2 weeks (3 sessions)</li></ul>",
@@ -183,7 +181,7 @@
     "slug" : "collaborative-law",
     "title" : "Collaborative law",
     "introduction" : "<p>Collaborative lawyers work with both parents to try and resolve their issues without having to go to court. After each parent appoints a lawyer everyone meets to negotiate face to face.</p><p>Negotiations are direct and efficient and give parents the opportunity to resolve issues in an amicable way.</p><p><a href=\"/collaborative-law\">Read more</a></p>",
-    "body_copy" : "<h2 class=\"incomplete\">This page is incomplete.</h2><p>What were you expecting it to contain?</p>",
+    "body_copy" : "<h2 class=\"incomplete\">This page is incomplete.</h2>",
     "cost" : {
       "scale" : {
         "min" : 0,
@@ -200,8 +198,7 @@
     "video" : {
       "title" : "",
       "thumbnail" : "",
-      "youtube_code" : "",
-       "description" : ""
+      "youtube_code" : ""
     },
     "case_study" : [],
     "usp_callout" : "",
@@ -241,7 +238,7 @@
     "slug" : "lawyer-mediation",
     "title" : "Lawyer mediation",
     "introduction" : "<p>Lawyer assisted mediation is slightly different to standard <a href=\"/mediation\">mediation</a>. Parents still use the help of a mediator but both appoint their own lawyers who also attend.</p><p><p>The mediator is in charge and will direct the parents and their lawyers to help the process.</p><p><a href=\"/lawyer-mediation\">Read more</a></p>",
-    "body_copy" : "<h2 class=\"incomplete\">This page is incomplete.</h2><p>What were you expecting it to contain?</p>",
+    "body_copy" : "<h2 class=\"incomplete\">This page is incomplete.</h2>",
     "cost" : {
       "scale" : {
         "min" : 0,
@@ -258,9 +255,7 @@
     "video" : {
       "title" : "",
       "thumbnail" : "",
-      "youtube_code" : "",
-       "description" : ""
-
+      "youtube_code" : ""
     },
     "case_study" : [],
     "usp_callout" : "",
@@ -294,7 +289,7 @@
     "slug" : "solicitor-negotiation",
     "title" : "Solicitor negotiation",
     "introduction" : "<p>Solicitor negotiation is like <a href=\"/collaborative-law\">collaborative law</a> in that both parties try to resolve issues out of court.</p><p>The difference is that the parents don’t meet to negotiate - this is all done by the solicitors.</p><p><a href=\"/solicitor-negotiation\">Read more</a></p>",
-    "body_copy" : "<h2 class=\"incomplete\">This page is incomplete.</h2><p>What were you expecting it to contain?</p>",
+    "body_copy" : "<h2 class=\"incomplete\">This page is incomplete.</h2>",
     "cost" : {
       "scale" : {
         "min" : 0,
@@ -311,8 +306,7 @@
     "video" : {
       "title" : "",
       "thumbnail" : "",
-      "youtube_code" : "",
-     "description" : ""
+      "youtube_code" : ""
     },
     "case_study" : [],
     "usp_callout" : "",
@@ -390,8 +384,7 @@
     "video" : {
       "title" : "Going to court",
       "thumbnail" : "static/images/video-thumbnails/court-thumb.png",
-      "youtube_code" : "",
-      "description" : "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt maxime temporibus iure autem! Totam sed, natus officiis, commodi dicta voluptas, aspernatur eius ratione, amet consequatur dolores laboriosam mollitia. Eum, harum!</p>"
+      "youtube_code" : "wUi7CsoeOE8"
     },
     "case_study" : [
       {
@@ -403,7 +396,7 @@
       },
       {
         "title" : "Stepfather",
-        "summary" : "<ul><li>Parents separated</li><li>Children aged 8 years and 10 years</li><li>Combined total cost: £11,480</li><li>Legal representaion: both parents represented themselves</li></ul>",
+        "summary" : "<ul><li>Parents separated</li><li>Children aged 8 years and 10 years</li><li>Combined total cost: £450</li><li>Legal representaion: both parents represented themselves</li></ul>",
         "copy" : "<p>The Father was concerned about the contact that he was having with his child and step-child. He had always been the father to the step-child who did not know his birth father.</p><p>The parties had separated 2 years previously and initially the arrangements for the children had gone well. However, the Mother then became difficult about contact with both children, changing arrangements at the last moment and dealing with things in a generally unsatisfactory way. She refused to go to mediation.</p><p>An immediate court application was made including a parental responsibility order in respect of the step-child. The matter came before the Court and a parental responsibility order for the step-child was secured almost immediately with the Court welfare service (CAFCASS) being instructed to prepare a report on the difficulties with contact.</p><p>Negotiations followed and a proper contact routine was agreed taking into account both parties’ work arrangements (which were complicated as the mother worked shifts). The Father is now able to see both the children on a regular basis and has retained a full role in their lives.</p>",
         "quote" : "",
         "quote_author" : ""
