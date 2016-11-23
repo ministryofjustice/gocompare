@@ -11,6 +11,7 @@
         <%- page.body_copy %>
       </div>
     </div>
+    <% if(page.video.title || page.process_image_link.full) { %>
     <div class="two-columns-uneven divider">
       <% if(page.video.title) { %>
         <div class="c c-video-player">
@@ -27,18 +28,22 @@
       <div class="c c-process-chart">
         <h2><%= page.title %> process chart</h2>
         <a class="c-process-chart__lightbox" href="<%= page.process_image_link.full %>">
-          <img src="<%= page.process_image_link.thumbnail %>" alt="<%= page.title %> process chart">
+          <img src="<%= page.process_image_link.thumbnail %>" alt="<%= page.title %> process chart" />
           <%= page.title %> process chart
         </a>
       </div>
       <% } %>
     </div>
+    <% } %>
+    <% if (page.resources.info) { %>
     <div class="c c-resources">
       <h2><%= page.title %> resources</h2>
       <div class="info">
         <%- page.resources.info %>
       </div>
     </div>
+    <% } %>
+    <% if (page.case_study.length > 0) { %>
     <section class="c c-case-studies">
       <h1>Case Studies</h1>
       <% page.case_study.forEach(function(cs) { %>
@@ -57,32 +62,35 @@
         </div>
       <% }) %>
     </section>
+    <% } %>
   </section>
   <aside class="u-secondary">
-    <div class="c c-proscons">
-      <% if (page.pros) { %>
-      <div class="c-proscons__pros">
-        <h2>Pros:</h2>
-        <ul>
-          <% page.pros.forEach(function(pro, i) { %>
-            <li><i class="fa fa-check"></i><div><%- pro.text %></div></li>
-          <% }) %>
-        </ul>
-      </div>
-      <% } if (page.cons) { %>
-      <div class="c-proscons__cons">
-        <h2>Cons:</h2>
-        <ul>
-          <% page.cons.forEach(function(con, i) { %>
-            <li><i class="fa fa-close"></i><div><%- con.text %></div></li>
-          <% }) %>
-        </ul>
+    <% if (page.pros.length > 0 || page.cons.length > 0) { %>
+      <div class="c c-proscons">
+        <% if (page.pros.length > 0) { %>
+        <div class="c-proscons__pros">
+          <h2>Pros:</h2>
+          <ul>
+            <% page.pros.forEach(function(pro, i) { %>
+              <li><i class="fa fa-check"></i><div><%- pro.text %></div></li>
+            <% }) %>
+          </ul>
+        </div>
+        <% } if (page.cons) { %>
+        <div class="c-proscons__cons">
+          <h2>Cons:</h2>
+          <ul>
+            <% page.cons.forEach(function(con, i) { %>
+              <li><i class="fa fa-close"></i><div><%- con.text %></div></li>
+            <% }) %>
+          </ul>
+        </div>
+      <% } %>
       </div>
     <% } %>
-    </div>
+    <% if (page.cost.info) { %>
     <div class="c c-cost">
-      <h2>Cost</h2>
-      <span>(per person):</span>
+      <h2>Cost<span>(per person):</span></h2>
       <div class="c-cost__scale">
         <img src="<%= page.cost.image_link %>" alt="The scale can range from quite low to very high"/>
         <span class="c-cost__scale__label">0</span>
@@ -92,6 +100,7 @@
         <%- page.cost.info %>
       </div>
     </div>
+    <% } %>
   </aside>
 </article>
 <% include components/footer.ejs %>

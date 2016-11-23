@@ -1,17 +1,21 @@
 <% include components/header.ejs %>
 <div class="full">
-  <div class="c c-headed-text u-primary">
-    <h1><%= content.title %></h1>
-    <%- content.introduction %>
+  <div class="u-primary">
+    <div class="c c-headed-text">
+      <h1><%= content.title %></h1>
+      <%- content.introduction %>
+    </div>
   </div>
-  <div class="c c-quick-links u-secondary">
-    <ul>
-      <% content.quicklinks.forEach(function(ql) { %>
-        <li>
-          <a href="<%= ql.url%>"><%= ql.name %></a>
-        </li>
-      <% }) %>
-    </ul>
+  <div class="u-secondary u-secondary--no-top-margin">
+    <div class="c c-quick-links">
+      <ul>
+        <% content.quicklinks.forEach(function(ql) { %>
+          <li>
+            <a href="<%= ql.url%>"><%= ql.name %></a>
+          </li>
+        <% }) %>
+      </ul>
+    </div>
   </div>
 </div>
 <div class="full">
@@ -33,11 +37,14 @@
             <h1><a href="<%= page.slug %>"><%= page.title %></a></h1>
             <%- page.introduction %>
           </div>
-          <div class="c c-usp-callout">
-            <blockquote>
-              <%- page.usp_callout %>
-            </blockquote>
-          </div>
+          <% if (page.usp_callout) { %>
+            <div class="c c-usp-callout">
+              <blockquote>
+                <%- page.usp_callout %>
+              </blockquote>
+            </div>
+          <% } %>
+          <% if (page.cost.info) { %>
           <dl class="c-details__infosheet">
             <dt>Cost (per person):</dt>
             <dd class="c c-cost">
@@ -51,10 +58,12 @@
               </div>
             </dd>
           </dl>
+          <% } %>
         </div>
         <aside class="u-secondary">
+        <% if (page.who_is_involved.length > 0) { %>
           <div class="c c-who-is-involved">
-            <h2>Who's involved</h2>
+            <h2>Whos involved</h2>
             <ul>
               <% page.who_is_involved.forEach(function(wii) {
                 if(wii.value > 0) {
@@ -65,6 +74,8 @@
               })%>
             </ul>
           </div>
+          <% } %>
+          <% if (page.pros.length > 0 || page.cons.length > 0) { %>
           <div class="c-proscons">
             <% if (page.pros) { %>
             <div class="c-proscons__pros">
@@ -84,6 +95,7 @@
                 <% }) %>
               </ul>
             </div>
+          <% } %>
           </div>
         <% } %>
         </aside>
