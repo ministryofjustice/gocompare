@@ -13,16 +13,17 @@ ff-body() {
 
 button(bgc) {
   display: inline-block;
-  color: #fff;
+  color: $light;
   background-color: bgc;
   padding: $vspacing $hspacing*3;
   border: 0;
   font-size: $outerCore;
   cursor: pointer;
-  border-bottom: 3px solid darken(bgc, 20%);
+  text-decoration:none;
+  border-radius: $brad;
   &:hover {
-    border-color: darken(bgc, 40%);
-    background-color: lighten(bgc, 10%);
+    color: $light;
+    background-color: lighten(bgc, 20%);
     i {
       transform: rotate(20deg);
     }
