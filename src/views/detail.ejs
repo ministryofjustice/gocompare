@@ -5,7 +5,7 @@
       <li><a href="/">Home</a></li>
       <li><%= page.title %></li>
     </ul>
-    <div class="c c-headed-text">
+    <div class="c c-headed-text divider">
       <h1><%= page.title %></h1>
       <div class="c c-body-copy">
         <%- page.body_copy %>
@@ -19,9 +19,6 @@
           <div class="c-video-player__container c-video-player__lightbox">
             <img data-youtube="<%= page.video.youtube_code %>" src="<%= page.video.thumbnail %>" alt="<%= page.video.title %>">
           </div>
-          <% if(page.video.description) { %>
-            <%- page.video.description %>
-          <% } %>
         </div>
       <% } %>
       <% if(page.process_image_link.full) { %>
@@ -36,7 +33,7 @@
     </div>
     <% } %>
     <% if (page.resources.info) { %>
-    <div class="c c-resources">
+    <div class="c c-resources divider">
       <h2><%= page.title %> resources</h2>
       <div class="info">
         <%- page.resources.info %>
@@ -54,10 +51,12 @@
           </div>
           <div class="c-case-studies__toggle_visible">
             <%- cs.copy %>
-            <blockquote class="c-case-studies__quote">
-              <div class="quote_body"><%= cs.quote %></div>
-              <div class="quote_author"><%= cs.quote_author %></div>
-            </blockquote>
+            <% if(cs.quote) { %>
+              <blockquote class="c-case-studies__quote">
+                <div class="quote_body"><%= cs.quote %></div>
+                <div class="quote_author"><%= cs.quote_author %></div>
+              </blockquote>
+            <% } %>
           </div>
         </div>
       <% }) %>
@@ -65,6 +64,12 @@
     <% } %>
   </section>
   <aside class="u-secondary">
+    <div class="c c-share">
+      <ul>
+        <li class="c-share__icon c-share__icon--print"><a href="#">Print this page</a></li>
+        <li class="c-share__icon c-share__icon--share"><a href="#">Share this page</a></li>
+      </ul>
+    </div>
     <% if (page.pros.length > 0 || page.cons.length > 0) { %>
       <div class="c c-proscons">
         <% if (page.pros.length > 0) { %>
