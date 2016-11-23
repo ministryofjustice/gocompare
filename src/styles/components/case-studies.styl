@@ -1,9 +1,15 @@
 &-case-studies {
   clear: both;
   &__container {
+    position:relative;
     margin-top: $vspacing;
     padding: $spacing*3;
     border: 1px solid $border;
+    &.hidden {
+      .c-case-studies__toggle_visible {
+        max-height: 0;
+      }
+    }
   }
   &__stub {
     h2 {
@@ -17,6 +23,13 @@
       margin-bottom: $vspacing*2;
     }
   }
+
+  &__toggle_visible {
+    overflow: hidden;
+    max-height: 9999px; //crazy value to make sure we don't ever get cut-off
+    transition: max-height .5s ease-in-out;
+  }
+
   &__quote {
     background-color: $boxbg;
     padding: $spacing*3;
@@ -40,6 +53,7 @@
         top:0;
         left:0;
       }
+
       &:after {
         bottom:0;
         right:0;
@@ -50,5 +64,22 @@
       display: block;
       margin-left: $hspacing*4;
     }
+  }
+
+  .js-toggle-btn {
+    position:absolute;
+    top: $vspacing*2;
+    right: $hspacing*2;
+    cursor: pointer;
+    width: $hspacing*2;
+    height: $vspacing;
+    background-image: url(/static/images/ico-accordion.svg);
+    background-size: contain;
+    background-repeat:no-repeat;
+    transition: transform .5s ease-in-out;
+  }
+
+  .hidden .js-toggle-btn {
+    transform: rotate(-180deg);
   }
 }

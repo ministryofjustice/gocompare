@@ -1,5 +1,8 @@
 // I'm not convinved jQuery is still the best way to do this sort of thing anymore
 // however it will have to do until I've got time to look into a suitable replacement.
+// Either way, I should refactor it to not use each.
+
+/* global $ */
 
 if ($('.c-process-chart__lightbox').length) {
   // a process chart has been found

@@ -1,5 +1,8 @@
 // I'm not convinved jQuery is still the best way to do this sort of thing anymore
 // however it will have to do until I've got time to look into a suitable replacement.
+// Either way, I should refactor it to not use each.
+
+/* global $ */
 
 if ($('.c-video-player__lightbox').length) {
   // a video player has been found
