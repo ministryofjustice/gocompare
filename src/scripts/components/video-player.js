@@ -3,13 +3,13 @@
 // Either way, I should refactor it to not use each.
 
 /* global $ */
-
-if ($('.c-video-player__lightbox').length) {
+let lightbox = $('.c-video-player__lightbox');
+if (lightbox.length) {
   // a video player has been found
-  $('.c-video-player__lightbox').each(function() {
-    let thisel = $(this);
+  for (var i = 0; i < lightbox.length; i++) {
+    let thisel = $(lightbox[i]);
     let body = $('body');
-    let src = $(this).find('img').attr('data-youtube');
+    let src = thisel.find('img').attr('data-youtube');
     let box = $('<div class="u-lightbox u-lightbox--video"><iframe id="ytplayer" type="text/html" width="640" height="360" src="https://www.youtube.com/embed/'+src+'?autoplay=1" frameborder="0"></iframe><div>');
     let close = $('<i class="fa fa-window-close" aria-hidden="true"></i>');
     thisel.on('click', function(e) {
@@ -25,5 +25,8 @@ if ($('.c-video-player__lightbox').length) {
         }
       });
     })
+  }
+  $('.c-video-player__lightbox').each(function() {
+
   })
 }

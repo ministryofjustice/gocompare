@@ -10,5 +10,7 @@ Any development tasks or optimisations which need to be made should be listed he
 4. Convert icon fonts to fontastic
 5. When making components into separate files, also make sure they are all sections and update tags accordingly
 6. Install bugherd (or something similar)
+7. Write a component loader
+8. Add rich search snippets
 
 ## Issues

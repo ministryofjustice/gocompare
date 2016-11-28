@@ -1,20 +1,19 @@
 /* global $ */
 
-// I'm not convinved jQuery is still the best way to do this sort of thing anymore
-// however it will have to do until I've got time to look into a suitable replacement.
-// Either way, I should refactor it to not use each.
-
 if ($('.c-case-studies').length) {
-  $('.c-case-studies__container').each(function() {
-    let el = $(this);
-    el.addClass('hidden');
-    let toggleBtn = $('<span class="js-toggle-btn"></span>').appendTo(el);
-    toggleBtn.on('click', function() {
-      if(el.hasClass('hidden')) {
-        el.removeClass('hidden');
+  let container = $('.c-case-studies__container');
+  for (var i = 0; i < container.length; i++) {
+    let el = container[i];
+    el.classList.add('hidden');
+    let toggleBtn = document.createElement('span');
+    toggleBtn.classList.add('js-toggle-btn');
+    el.appendChild(toggleBtn);
+    $(toggleBtn).on('click', function() {
+      if(el.classList.contains('hidden')) {
+        el.classList.remove('hidden');
       } else {
-        el.addClass('hidden');
+        el.classList.add('hidden');
       }
     })
-  })
+  }
 }
