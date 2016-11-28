@@ -19,14 +19,11 @@ if (lightbox.length) {
       box.on('click', '.fa-window-close' , function() {
         box.remove();
       })
-      $(document).keyup(function(e) {
-        if (e.keyCode === 27) {
-          box.remove();
-        }
-      });
     })
+    $(document).keyup(function(e) {
+      if (e.keyCode === 27) {
+        box.remove();
+      }
+    });
   }
-  $('.c-video-player__lightbox').each(function() {
-
-  })
 }
