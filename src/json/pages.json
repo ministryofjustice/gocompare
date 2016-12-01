@@ -97,7 +97,7 @@
         "max" : 10
       },
       "image_link" : "static/images/costs/cost_mediation.svg",
-      "info" : "<p>The average cost of a mediation session is <strong>£80</strong>.</p><p>How many sessions you have depends on the amount of issues you want to discuss.</p><p>If you don’t work, or are on a low income, you may be able to get legal aid for mediation.</p><p><a href=\"https://checklegalaid.service.gov.uk/\">Check if you can get legal aid</a></p>"
+      "info" : "<p>The average cost of a mediation session is £80 per person.</p><p>How many sessions you have depends on the amount of issues you want to discuss.</p><p>If you don’t work, or are on a low income, you may be able to get legal aid for mediation.</p><p><a href=\"https://checklegalaid.service.gov.uk/\">Check if you can get legal aid</a></p>"
     },
     "process_image_link" :  {
       "full" : "static/images/process-charts/process-full-mediation.jpg",
