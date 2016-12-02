@@ -3,13 +3,13 @@
 // Either way, I should refactor it to not use each.
 
 /* global $ */
-
-if ($('.c-process-chart__lightbox').length) {
+let lightbox = $('.c-process-chart__lightbox')
+if (lightbox.length) {
   // a process chart has been found
-  $('.c-process-chart__lightbox').each(function() {
-    let thisel = $(this);
+  for (var i = 0; i < lightbox.length; i++) {
+    let thisel = $(lightbox[i]);
     let body = $('body');
-    let src = $(this).attr('href');
+    let src = thisel.attr('href');
     let box = $('<div class="u-lightbox"><img src="'+src+'" alt="large version of process chart" /><div>');
     let close = $('<i class="fa fa-window-close" aria-hidden="true"></i>');
     thisel.on('click', function(e) {
@@ -19,11 +19,11 @@ if ($('.c-process-chart__lightbox').length) {
       box.on('click', '.fa-window-close' , function() {
         box.remove();
       })
-      $(document).keyup(function(e) {
-        if (e.keyCode === 27) {
-          box.remove();
-        }
-      });
     })
-  })
+    $(document).keyup(function(e) {
+      if (e.keyCode === 27) {
+        box.remove();
+      }
+    });
+  }
 }

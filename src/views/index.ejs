@@ -1,21 +1,10 @@
-<% include components/header.ejs %>
+<% include layouts/header.ejs %>
 <div class="full">
   <div class="u-primary">
-    <div class="c c-headed-text">
-      <h1><%= content.title %></h1>
-      <%- content.introduction %>
-    </div>
+    <% include components/headed-text.ejs %>
   </div>
   <div class="u-secondary u-secondary--no-top-margin">
-    <div class="c c-quick-links">
-      <ul>
-        <% content.quicklinks.forEach(function(ql) { %>
-          <li>
-            <a href="<%= ql.url%>"><%= ql.name %></a>
-          </li>
-        <% }) %>
-      </ul>
-    </div>
+    <% include components/quick-links.ejs %>
   </div>
 </div>
 <div class="full">
@@ -38,26 +27,10 @@
             <%- page.introduction %>
           </div>
           <% if (page.usp_callout) { %>
-            <div class="c c-usp-callout">
-              <blockquote>
-                <%- page.usp_callout %>
-              </blockquote>
-            </div>
+            <% include components/usp-callout.ejs %>
           <% } %>
           <% if (page.cost.info) { %>
-          <dl class="c-details__infosheet">
-            <dt>Cost (per person):</dt>
-            <dd class="c c-cost">
-              <div class="c-cost__scale">
-                <img src="<%= page.cost.image_link %>" alt="The scale can range from quite low to very high"/>
-                <span class="c-cost__scale__label">0</span>
-                <span class="c-cost__scale__label">&pound;100k</span>
-              </div>
-              <div class="c-cost__info">
-                <%- page.cost.info %>
-              </div>
-            </dd>
-          </dl>
+          <% include components/cost.ejs %>
           <% } %>
         </div>
         <aside class="u-secondary u-secondary--no-top-margin">
@@ -76,28 +49,8 @@
           </div>
           <% } %>
           <% if (page.pros.length > 0 || page.cons.length > 0) { %>
-          <div class="c-proscons">
-            <% if (page.pros) { %>
-            <div class="c-proscons__pros">
-              <h2>Pros:</h2>
-              <ul>
-                <% page.pros.forEach(function(pro, i) { %>
-                  <li><i class="fa fa-check"></i><div><%- pro.text %></div></li>
-                <% }) %>
-              </ul>
-            </div>
-            <% } if (page.cons) { %>
-            <div class="c-proscons__cons">
-              <h2>Cons:</h2>
-              <ul>
-                <% page.cons.forEach(function(con, i) { %>
-                  <li><i class="fa fa-close"></i><div><%- con.text %></div></li>
-                <% }) %>
-              </ul>
-            </div>
+            <% include components/pros-cons.ejs %>
           <% } %>
-          </div>
-        <% } %>
         </aside>
       </section>
     </li>
@@ -105,4 +58,4 @@
 
    </ul>
 </div>
-<% include components/footer.ejs %>
+<% include layouts/footer.ejs %>

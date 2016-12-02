@@ -21,12 +21,29 @@ router.get('/:slug', (req, res) => {
             page: page
           }
         )
+      } else {
+        res.render('error', {
+          type: 'error',
+          page: {
+            code: '404',
+            title: 'Error 404: No page found matching \'' + slug + '\'',
+            message : 'You seem to have to hit his page in error.'
+          }
+        })
       }
     });
 });
 
+// if the user hits a non-existing route, then show a 404 error on the utility template.
 router.get('*', (req, res) => {
-  res.send('<h1>404 not found</h1>');
+  res.render('error', {
+    type: 'error',
+    page: {
+      code: '404',
+      title: 'Error 404: Page not found',
+      message : 'You seem to have to hit his page in error.'
+    }
+  })
 });
 
 module.exports = router;
