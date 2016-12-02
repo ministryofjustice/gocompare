@@ -103,6 +103,9 @@ gulp.task('static', () => {
   // TODO: Add compression function to this.
   gulp.src(io.in+path.images+'/**/*.*')
   .pipe(gulp.dest(io.out+'/static/'+path.images))
+  // Robots.txt
+  gulp.src('robots.txt')
+    .pipe(gulp.dest(io.out))
 });
 
 // Process theme
