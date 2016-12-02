@@ -105,7 +105,7 @@ gulp.task('static', () => {
   .pipe(gulp.dest(io.out+'/static/'+path.images))
   // Robots.txt
   gulp.src('robots.txt')
-    .pipe(gulp.dest(io.out)
+    .pipe(gulp.dest(io.out))
 });
 
 // Process theme
