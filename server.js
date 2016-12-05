@@ -1,8 +1,12 @@
 var express = require('express');
+
+// Express middleware
 var bodyParser = require('body-parser');
 var morgan = require('morgan');
 var favicon = require('serve-favicon');
 var compression = require('compression')
+
+// Route loader
 var routes = require('./src/routes/loader');
 
 var app = express();
