@@ -1,6 +1,12 @@
 var express = require('express');
+
+// Express middleware
 var bodyParser = require('body-parser');
 var morgan = require('morgan');
+var favicon = require('serve-favicon');
+var compression = require('compression')
+
+// Route loader
 var routes = require('./src/routes/loader');
 
 var app = express();
@@ -20,6 +26,12 @@ app.use(function(req, res, next) {
 });
 
 app.use(morgan('dev'));
+
+// Gzip content
+app.use(compression());
+
+// Set Favicon
+app.use(favicon(__dirname + '/dist/static/images/site-icons/favicon.ico'));
 
 // Set a static files folder (css, images etc...)
 app.use('/static', express.static('dist/static'));
