@@ -1,6 +1,13 @@
 &-usp-callout {
   blockquote {
-    padding: $vspacing $hspacing*2 1px;
-    border-left: $hspacing solid lighten($primary, 60%);
+    padding: $vspacing $hspacing*2;
+    background-color: $boxbg;
+  }
+
+  // If the component is preceded immediately by a headed-text component then
+  // change margins to match it.
+  .c-headed-text + & {
+    margin-top: -($vspacing*4);
+    margin-bottom: $vspacing;
   }
 }
