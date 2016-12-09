@@ -2,6 +2,11 @@
   "template" :  "index",
   "title" : "Compare options for making child arrangements",
   "introduction" : "<p>Parents may need to agree child arrangements (also known as custody) if they divorce or separate.</p><p>For example, they may need to decide where the children will live and how much time they spend with each parent.</p><p>Parents can make arrangements themselves or use an adviser, such as a solicitor or mediator.</p><p>Which option parents choose usually depends on how well they can communicate after separation.</p>",
+  "action_plan_link" : {
+    "text" : "<p>For parents who need help agreeing child arrangements, there’s a personalised step-by-step service that gives information based on their situation.</p>",
+    "button_text" : "Get step-by-step guidance",
+    "button_link" : "https://moj-pap-2016-12-12.herokuapp.com"
+  },
   "quicklinks" : [
     {
       "name" : "Arrange child maintenance yourself",

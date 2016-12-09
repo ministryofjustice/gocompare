@@ -1,12 +1,10 @@
 <div class="c c-who-is-involved">
   <h2>Who's involved</h2>
   <ul>
-    <% page.who_is_involved.forEach(function(wii) {
-      if(wii.value > 0) {
-        for(var i = 0; i<wii.value;i++) { %>
-          <li class="<%= wii.slug %>"><span class="tooltip"><%= wii.key %></span></li>
-        <% }
-      }
-    })%>
+    <% page.who_is_involved.forEach(function(wii) { %>
+      <% if (wii.value > 0) {%>
+        <li class="<%= wii.slug %>"><%= wii.key %><span class="lozenge"><%= wii.value %></span></li>
+      <% }%>
+    <% })%>
   </ul>
 </div>
