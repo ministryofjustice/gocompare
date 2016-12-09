@@ -326,8 +326,8 @@
       "info" : ""
     },
     "process_image_link" :  {
-      "full" : "static/images/process-charts/process-full-collaborative.jpg",
-      "thumbnail" : ""
+      "full" : "static/images/process-charts/process-full-collaborative-law.jpg",
+      "thumbnail" : "static/images/process-charts/process-thumb-collaborative-law.png"
     },
     "who_is_involved" : [
         {
@@ -343,7 +343,7 @@
     ],
     "video" : {
       "title" : "Collaborative Law process",
-      "thumbnail" : "",
+      "thumbnail" : "static/images/video-thumbnails/collaborative-law-thumb.png",
       "youtube_code" : "Cb2NcCNDJvg"
     },
     "case_study" : [],
