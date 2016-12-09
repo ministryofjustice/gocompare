@@ -1,10 +1,10 @@
-<div class="c-proscons">
+<div class="c c-proscons">
   <% if (page.pros) { %>
   <div class="c-proscons__pros">
     <h2>Pros:</h2>
     <ul>
       <% page.pros.forEach(function(pro, i) { %>
-        <li><i class="fa fa-check"></i><div><%- pro.text %></div></li>
+        <li class="icon-tick"><%- pro.text %></li>
       <% }) %>
     </ul>
   </div>
@@ -13,7 +13,7 @@
     <h2>Cons:</h2>
     <ul>
       <% page.cons.forEach(function(con, i) { %>
-        <li><i class="fa fa-close"></i><div><%- con.text %></div></li>
+        <li class="icon-cross"><%- con.text %></li>
       <% }) %>
     </ul>
   </div>

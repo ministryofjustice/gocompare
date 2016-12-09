@@ -38,7 +38,7 @@ var errorPage = function(req, res) {
 router.get('/', auth, (req, res) => {
   res.render('index', {
     type: 'index',
-    content: index,
+    page: index,
     pages: pages
   })
 });
