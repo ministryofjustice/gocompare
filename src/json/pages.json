@@ -12,8 +12,8 @@
           "min" : 0,
           "max" : 10
         },
-        "image_link" : "static/images/costs/cost_negotiation_tools.svg",
-        "info" : "<p>Free</p>"
+        "image_link" : "",
+        "info" : ""
       },
       "who_is_involved" : [
           {
@@ -89,15 +89,15 @@
     "slug" : "mediation",
     "title" : "Mediation",
     "short_title" : "",
-    "introduction" : "<p>Parents can choose to attend mediation if they can't agree on every child arrangement issue. A mediator is a trained professional who will offer impartial advice.</p>",
+    "introduction" : "<p>Parents can choose to attend mediation if they can't agree on every child arrangement issue. A mediator is an impartial trained professional who helps parents resolve disputes.</p>",
     "body_copy" : "<p>Parents must first meet with a mediator to check if it's right for them. This is called a <a href=\"http://www.nfm.org.uk/index.php/family-mediation/mediation-information-meeting-miam\">Mediation Information and Assessment meeting</a> (MIAM).</p><p>The mediator will explain:<ul><li>how mediation works</li><li>the benefits</li><li>the likely costs</li><li>if the parents are eligible for free mediation through legal aid</li><li>whether it's right for the parents</li></ul></p><blockquote>Mediation usually takes place over several sessions, each lasting about 90 minutes. Parents can either attend together or separately.</blockquote><p>If the parents reach an agreement the mediator will write it down. Parents can then ask a solicitor to make the agreement legally binding.</p><p>Agreements don't have to be legally binding but it can be useful if the arrangements are long and complex.</p><p><strong>When mediation isn't suitable</strong></p><p>Parents should seek alternative options if:<ul><li>one of the parents has been a victim of domestic abuse or violence</li><li>there's a perceived risk to the child</li><li>the relationship between the parents has broken down completely (for example there's no contact)</li></ul></p><p><a class=\"u-btn\" href=\"http://www.familymediationcouncil.org.uk/find-local-mediator/\">Find a mediator</a></p>",
     "cost" : {
       "scale" : {
         "min" : 0,
         "max" : 10
       },
-      "image_link" : "static/images/costs/cost_mediation.svg",
-      "info" : "<p>The average cost of a mediation session is £80 per person.</p><p>How many sessions you have depends on the amount of issues you want to discuss.</p><p>If you don’t work, or are on a low income, you may be able to get legal aid for mediation.</p><p><a href=\"https://checklegalaid.service.gov.uk/\">Check if you can get legal aid</a></p>"
+      "image_link" : "",
+      "info" : ""
     },
     "process_image_link" :  {
       "full" : "static/images/process-charts/process-full-mediation.jpg",
@@ -184,14 +184,14 @@
     "title" : "Lawyer mediation",
     "short_title" : "",
     "introduction" : "<p>Both parents appoint their own lawyers who attend mediation with them. The mediator is in charge of the process and tries to help both parties resolve their issues.</p>",
-    "body_copy" : "<h2 class=\"incomplete\">This page is incomplete.</h2>",
+    "body_copy" : "<p>Both parents will need to appoint their own lawyer before attending lawyer assisted mediation.</p><p>Parents can <a href=\"http://www.familymediationcouncil.org.uk/find-local-mediator\">find a mediator</a> themselves or ask their lawyers to recommend one.</p><p>This method of mediation usually takes place over one long session. The mediator will run the session and remain impartial.</p><p>As mediators can't offer legal advice one of the benefits of this approach is that parents have legal advice throughout.</p><p>The process usually begins with each parent explaining what they want to achieve from the meeting. The mediator will then set an agenda.</p><p>How the mediator runs the session will depend on the situation but may involve:<ul><li>everyone sitting in the same room discussing the issues</li><li>both parties in separate rooms with the mediator moving between the two (known as 'shuttle mediation')</li></ul></p><p><strong>When to consider lawyer mediation</strong></p><p>This type of mediation is useful if the parents want:<ul><li>agreements made into a court order</li><li>to avoid court</li><li>to resolve their issues quickly</li><li>help because the issues are long or complex</li></ul></p>",
     "cost" : {
       "scale" : {
         "min" : 0,
         "max" : 10
       },
-      "image_link" : "static/images/costs/cost_lawyer_mediation.svg",
-      "info" : "<p>The total cost will depend on how complicated the case is.</p>"
+      "image_link" : "",
+      "info" : ""
     },
     "process_image_link" :  {
       "full" : "",
@@ -222,7 +222,7 @@
     "case_study" : [],
     "usp_callout" : "<p><strong>Parents should consider this if</strong> they need help negotiating or there are a lot of complex issues to resolve.</p>",
     "resources" : {
-      "info" : ""
+      "info" : "<p>Read more about <a href=\"http://www.divorce.co.uk/divorce-approaches/mediation-with-lawyers\">lawyer mediation</a></p><p><a href=\"http://www.familymediationcouncil.org.uk/find-local-mediator\">Find a local mediator</a></p>"
     },
     "pros" : [
 	  {
@@ -258,8 +258,8 @@
         "min" : 0,
         "max" : 10
       },
-      "image_link" : "static/images/costs/cost_solicitor_negotiation.svg",
-      "info" : "<p>The total cost will depend on how complicated the case is.</p>"
+      "image_link" : "",
+      "info" : ""
     },
     "process_image_link" :  {
       "full" : "",
@@ -322,8 +322,8 @@
         "min" : 0,
         "max" : 10
       },
-      "image_link" : "static/images/costs/cost_collaborative_law.svg",
-      "info" : "<p>The total cost will depend on how complicated the case is.</p>"
+      "image_link" : "",
+      "info" : ""
     },
     "process_image_link" :  {
       "full" : "",
@@ -391,8 +391,8 @@
         "min" : 0,
         "max" : 10
       },
-      "image_link" : "static/images/costs/cost_court.svg",
-      "info" : "<p>Depends on how complicated the case is.</p>"
+      "image_link" : "",
+      "info" : ""
     },
     "process_image_link" :  {
       "full" : "static/images/process-charts/process-full-court.jpg",
