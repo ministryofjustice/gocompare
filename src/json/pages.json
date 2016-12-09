@@ -252,7 +252,7 @@
     "title" : "Solicitor negotiation",
     "short_title" : "",
     "introduction" : "<p>Parents won't have to deal with each other directly in this process. They both instruct lawyers who negotiate for them.</p>",
-    "body_copy" : "<h2 class=\"incomplete\">This page is incomplete.</h2>",
+    "body_copy" : "<p>Parents might use solicitor negotiation if their separation was particularly difficult and they no longer talk.</p><p>During this process the parents won’t have to deal with each other directly. They’ll instruct their solicitors who will negotiate for them.</p><p>The parents must first appoint their own solicitor. Each solicitor will set then up an initial meeting with their client so they can discuss the case.</p><p>Parents will need to explain what their issues are and the outcome they want to achieve.</p><p>After receiving instructions from the parents, the solicitors will begin negotiations face-to-face.</p><p>As in <a href=\"collaborative-law\">collaborative law</a> both parties will try and keep the case from going to court.</p>",
     "cost" : {
       "scale" : {
         "min" : 0,
@@ -280,7 +280,7 @@
     "case_study" : [],
     "usp_callout" : "<p><strong>Parents should consider this if </strong>their relationship is still difficult and they’d prefer not to meet, or there's a lack of trust.</p>",
     "resources" : {
-      "info" : ""
+      "info" : "<p><a href=\"http://www.resolution.org.uk/findamember\">Find a local solicitor</a></p><p>Read more on the <a href=\"http://www.nfm.org.uk/index.php/family-mediation/principles-of-mediation\">principles of mediation</a></p>"
     },
     "pros" : [
   	   {
