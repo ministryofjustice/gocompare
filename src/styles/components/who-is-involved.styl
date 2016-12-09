@@ -5,14 +5,14 @@
     text-align: left;
   }
   padding: $spacing;
-  background-color: $boxbg;
   li {
+    span(1/2, cycle: 2);
     position: relative;
-    display: inline-block;
-    width:  $hspacing*4;
     height: $vspacing*4;
     background-size: contain;
     background-repeat: no-repeat;
+    line-height: $lineHeight*2.5;
+    padding-left: $hspacing*5;
     &.parentguardian {
       background-image: url(/static/images/attending-icons/parent.svg);
     }
@@ -25,36 +25,22 @@
     &.judgecourt {
       background-image: url(/static/images/attending-icons/judge_court.svg);
     }
-    &:hover {
-      .tooltip {
-        display: block;
+    .lozenge {
+      position: absolute;
+      bottom: -($vspacing);
+      left: $hspacing*2.5;
+      background-color: $light;
+      width: 20px;
+      height: 20px;
+      line-height: 1;
+      text-align: center;
+      border-radius: 100%;
+      font-size: $smallCopy;
+      font-weight: bold;
+      &:before {
+        content: "x";
       }
     }
   }
-  .tooltip {
-    position: absolute;
-    color: $light;
-    background-color: $dark;
-    text-align: center;
-    padding: $vspacing $hspacing ($vspacing/2);
-    top: -($vspacing*4);
-    left: -($hspacing*5);
-    width: $hspacing*14;
-    display: none;
-    border-radius: $brad;
-    &:after {
-    	top: 100%;
-    	left: 50%;
-    	border: solid transparent;
-    	content: " ";
-    	height: 0;
-    	width: 0;
-    	position: absolute;
-    	pointer-events: none;
-    	border-color: rgba(41, 55, 64, 0);
-    	border-top-color: $dark;
-    	border-width: 10px;
-    	margin-left: -10px;
-    }
-  }
+
 }
