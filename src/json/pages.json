@@ -3,7 +3,7 @@
       "id" : 1,
       "template" : "detail",
       "slug" : "negotiation-between-parents",
-      "title" : "Use negotiation tools and services",
+      "title" : "Negotiation tools and services",
       "short_title" : "Negotiation",
       "introduction" : "<p>If the parents still communicate, the cheapest and easiest way for them to make child arrangements is to negotiate with each other. There are tools and services that can help.</p>",
       "body_copy" : "<p>There are free online tools and services that can help parents negotiate an agreement for their children without having to go to court.</p><h2>Parenting plans</h2><p>A parenting plan is a written or online plan that parents can use to prepare, discuss and agree child arrangements. A plan is flexible and not a legally binding agreement.</p><p>Using a parent plan:</p><ul><li>helps parents know what’s expected of them</li><li>clarifies what’s been agreed (for example, where the children will live)</li><li>works as a reference for parents to go back to</li></ul><p>There are several online parenting plans available:</p><p></p><p><a href=\"https://www.cafcass.gov.uk/grown-ups/parenting-plan.aspx\">Children and Family Court Advisory and Support Service (Cafcass)</a></p><p></p><p><a href=\"http://www.splittingup-putkidsfirst.org.uk/home\">Putting Kids First</a></p><p></p><p><a href=\"http://www.separatedfamilies.info/home/parenting-apart/parenting-agreements/\">Centre of Separated Families</a></p>",
@@ -164,7 +164,7 @@
         "text" : "helps children continue family relationships"
       },
       {
-        "text" : "agreements are flexible"
+        "text" : "can adapt plans if situation changes"
       }
     ],
     "cons" : [
