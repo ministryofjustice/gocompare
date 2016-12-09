@@ -22,18 +22,14 @@
     background-repeat: no-repeat;
     line-height: $lineHeight*2.5;
     padding-left: $hspacing*5;
-    &.parentguardian {
-      background-image: url(/static/images/attending-icons/parent.svg);
+
+    &:before {
+      position: absolute;
+      left: $hspacing;
+      top: $vspacing;
+      font-size: 25px //px value used to size icon font
     }
-    &.mediator {
-      background-image: url(/static/images/attending-icons/mediator.svg);
-    }
-    &.lawyersolicitor {
-      background-image: url(/static/images/attending-icons/lawyer_solicitor.svg);
-    }
-    &.judgecourt {
-      background-image: url(/static/images/attending-icons/judge_court.svg);
-    }
+
     .lozenge {
       position: absolute;
       bottom: -($vspacing);
