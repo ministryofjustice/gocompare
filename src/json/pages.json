@@ -326,7 +326,7 @@
       "info" : ""
     },
     "process_image_link" :  {
-      "full" : "",
+      "full" : "static/images/process-charts/process-full-collaborative.jpg",
       "thumbnail" : ""
     },
     "who_is_involved" : [
@@ -342,9 +342,9 @@
         }
     ],
     "video" : {
-      "title" : "",
+      "title" : "Collaborative Law process",
       "thumbnail" : "",
-      "youtube_code" : ""
+      "youtube_code" : "Cb2NcCNDJvg"
     },
     "case_study" : [],
     "usp_callout" : "<p><strong>Parents should consider this if </strong>they can still communicate with each other and are open to working together to resolve their issues.</p>",
