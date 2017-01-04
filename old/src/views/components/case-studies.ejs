@@ -1,0 +1,20 @@
+<section class="c c-case-studies">
+  <h1>Case studies</h1>
+  <% page.case_study.forEach(function(cs) { %>
+    <div class="c-case-studies__container">
+      <div class="c-case-studies__stub">
+        <h2><%= cs.title %></h2>
+        <%- cs.summary %>
+      </div>
+      <div class="c-case-studies__toggle_visible js-toggle-visible">
+        <%- cs.copy %>
+        <% if(cs.quote) { %>
+          <blockquote class="c-case-studies__quote">
+            <div class="quote_body"><%= cs.quote %></div>
+            <div class="quote_author"><%= cs.quote_author %></div>
+          </blockquote>
+        <% } %>
+      </div>
+    </div>
+  <% }) %>
+</section>

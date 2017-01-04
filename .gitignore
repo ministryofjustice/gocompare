@@ -1,10 +1,14 @@
 .DS_Store
-dist/
+build
+database.sqlite
+
+react-starter-kit-feature-redux/
 
 # Logs
 logs
 *.log
 npm-debug.log*
+ncp-debug.log
 
 # Runtime data
 pids
